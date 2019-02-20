@@ -39,7 +39,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "next start -p $PORT",
     "test": "jest"
   },
   "jest": {
@@ -69,7 +69,9 @@
     "jest": "^22.4.0",
     "jest-enzyme": "^4.2.0",
     "markdown-to-jsx": "^6.9.0",
-    "react-markdown": "^4.0.6"
+    "react-markdown": "^4.0.6",
+    "node": "10.15.1",
+    "npm": "6.4.1"
   },
   "moduleFileExtensions": [
     "js",
