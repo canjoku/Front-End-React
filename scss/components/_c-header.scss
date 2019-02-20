@@ -1,0 +1,57 @@
+.c-header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem;
+  height: 50vh;
+  background-image: image-url('/static/images/pexels-photo-6.jpeg');
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  &__content {
+    bottom: 3rem;
+    width: 100%;
+    font-size: 1.15rem;
+    position: absolute;
+  }
+
+  &__title {
+    margin: 0 0 1.25rem;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 1rem;
+    line-height: 1;
+    font-family: 'Playfair Display', serif;
+  }
+
+  &__subtitle {
+    display: flex;
+    align-items: center;
+  }
+
+  &__description {
+    margin: 0 auto 0 1rem;
+    line-height: 1.2;
+  }
+}
+
+
+@media screen and (min-width: 720px) {
+  .c-header {
+    padding: 5rem;
+    &__content {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .c-header {
+    padding: 6rem;
+    &__title {
+      font-size: 2.5rem;
+    }
+  }
+}

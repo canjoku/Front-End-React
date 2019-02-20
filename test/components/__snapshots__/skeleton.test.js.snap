@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Skeleton /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Skeleton
+    color="#F6D55C"
+    count={2}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="s-skeleton"
+        >
+          <div
+            className="s-skeleton__element"
+            style={
+              Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              }
+            }
+          />
+          <div
+            className="s-skeleton__element"
+            style={
+              Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              }
+            }
+          />
+          <div
+            className="s-skeleton__element"
+            style={
+              Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              }
+            }
+          />
+        </div>,
+        <div
+          className="s-skeleton"
+        >
+          <div
+            className="s-skeleton__element"
+            style={
+              Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              }
+            }
+          />
+          <div
+            className="s-skeleton__element"
+            style={
+              Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              }
+            }
+          />
+          <div
+            className="s-skeleton__element"
+            style={
+              Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              }
+            }
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />,
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />,
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />,
+          ],
+          "className": "s-skeleton",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "className": "s-skeleton__element",
+              "style": Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "className": "s-skeleton__element",
+              "style": Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "className": "s-skeleton__element",
+              "style": Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />,
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />,
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />,
+          ],
+          "className": "s-skeleton",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "className": "s-skeleton__element",
+              "style": Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "className": "s-skeleton__element",
+              "style": Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "className": "s-skeleton__element",
+              "style": Object {
+                "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="s-skeleton"
+          >
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />
+          </div>,
+          <div
+            className="s-skeleton"
+          >
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />
+            <div
+              className="s-skeleton__element"
+              style={
+                Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                }
+              }
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="s-skeleton__element"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                  }
+                }
+              />,
+              <div
+                className="s-skeleton__element"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                  }
+                }
+              />,
+              <div
+                className="s-skeleton__element"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                  }
+                }
+              />,
+            ],
+            "className": "s-skeleton",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "className": "s-skeleton__element",
+                "style": Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "className": "s-skeleton__element",
+                "style": Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "className": "s-skeleton__element",
+                "style": Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="s-skeleton__element"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                  }
+                }
+              />,
+              <div
+                className="s-skeleton__element"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                  }
+                }
+              />,
+              <div
+                className="s-skeleton__element"
+                style={
+                  Object {
+                    "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                  }
+                }
+              />,
+            ],
+            "className": "s-skeleton",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "className": "s-skeleton__element",
+                "style": Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "className": "s-skeleton__element",
+                "style": Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "className": "s-skeleton__element",
+                "style": Object {
+                  "background": "linear-gradient(to right, #F6D55C, #f7f7f7)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

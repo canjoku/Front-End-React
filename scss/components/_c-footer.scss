@@ -1,0 +1,10 @@
+.c-footer {
+  background-color: var(--footer-background);
+  padding: 2.5rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
+  color: var(--text-colour);
+}

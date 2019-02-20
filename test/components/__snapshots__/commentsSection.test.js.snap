@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentsSection /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommentsSection
+    comments={
+      Array [
+        Object {
+          "body": "the first comment",
+        },
+        Object {
+          "body": "the second comment",
+        },
+      ]
+    }
+    slug="a-fantastic-post"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          If you would like to leave a comment, then please login
+        </p>,
+        <a
+          onClick={[Function]}
+        >
+          Login
+        </a>,
+        Array [
+          <CommentCard
+            comment={
+              Object {
+                "body": "the first comment",
+              }
+            }
+          />,
+          <CommentCard
+            comment={
+              Object {
+                "body": "the second comment",
+              }
+            }
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "If you would like to leave a comment, then please login",
+        },
+        "ref": null,
+        "rendered": "If you would like to leave a comment, then please login",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Login",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Login",
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "comment": Object {
+            "body": "the first comment",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "comment": Object {
+            "body": "the second comment",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            If you would like to leave a comment, then please login
+          </p>,
+          <a
+            onClick={[Function]}
+          >
+            Login
+          </a>,
+          Array [
+            <CommentCard
+              comment={
+                Object {
+                  "body": "the first comment",
+                }
+              }
+            />,
+            <CommentCard
+              comment={
+                Object {
+                  "body": "the second comment",
+                }
+              }
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "If you would like to leave a comment, then please login",
+          },
+          "ref": null,
+          "rendered": "If you would like to leave a comment, then please login",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Login",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Login",
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "comment": Object {
+              "body": "the first comment",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "comment": Object {
+              "body": "the second comment",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

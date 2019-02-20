@@ -1,1 +1,20 @@
-@import './layout/layout.scss';
+@import './base/base.scss';
+@import './base/reset.scss';
+@import './base/variables.scss';
+
+@import "./layout/l-wrapper";
+@import "./layout/l-posts";
+
+
+@import "./components/c-header";
+@import "./components/c-links";
+@import "./components/c-footer";
+@import "./components/c-post";
+@import "./components/c-show-post";
+@import "./components/c-comments-form";
+@import "./components/c-comment";
+@import "./components/c-subscriber";
+
+@import "./components/s-skeleton";
+
+@import "./fonts/fonts";

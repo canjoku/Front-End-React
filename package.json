@@ -1,15 +1,45 @@
 {
   "dependencies": {
-    "@zeit/next-sass": "^0.1.2",
-    "next": "^5.0.0",
-    "node-sass": "^4.8.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "@zeit/next-sass": "^1.0.1",
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link-context": "^1.0.14",
+    "auth0-js": "^9.8.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-plugin-transform-define": "^1.3.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-anywhere": "^4.1.23",
+    "graphql-tag": "^2.10.0",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "jwt-decode": "^2.2.0",
+    "marked": "^0.6.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "postmark": "^2.2.4",
+    "react": "^16.6.3",
+    "react-apollo": "^2.3.2",
+    "react-dom": "^16.6.3"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "shallow",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect",
+      "localStorage"
+    ]
   },
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "test": "jest"
   },
   "jest": {
@@ -19,16 +49,31 @@
     ],
     "snapshotSerializers": [
       "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/__mocks__/fileMock.js",
+      "\\.(css|scss|less)$": "<rootDir>/test/__mocks__/styleMock.js"
+    }
   },
   "devDependencies": {
-    "babel-jest": "^22.4.3",
+    "@babel/core": "^7.1.6",
+    "babel-jest": "^22.4.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.3",
-    "jest": "^22.4.3",
-    "jest-enzyme": "^6.0.0"
-  }
+    "enzyme-to-json": "^3.3.1",
+    "identity-obj-proxy": "^3.0.0",
+    "image-webpack-loader": "^4.6.0",
+    "jest": "^22.4.0",
+    "jest-enzyme": "^4.2.0",
+    "markdown-to-jsx": "^6.9.0",
+    "react-markdown": "^4.0.6"
+  },
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "scss"
+  ]
 }

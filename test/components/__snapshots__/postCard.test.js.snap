@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PostCard
+    post={
+      Object {
+        "id": 4,
+        "title": "the first post",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="c-post"
+      >
+        <h1
+          className="c-post__title"
+        >
+          <Link
+            as="/posts/undefined"
+            href="/showPost?slug=undefined"
+          >
+            <a>
+              the first post
+            </a>
+          </Link>
+        </h1>
+      </div>,
+      "className": "l-posts",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <h1
+          className="c-post__title"
+        >
+          <Link
+            as="/posts/undefined"
+            href="/showPost?slug=undefined"
+          >
+            <a>
+              the first post
+            </a>
+          </Link>
+        </h1>,
+        "className": "c-post",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Link
+            as="/posts/undefined"
+            href="/showPost?slug=undefined"
+          >
+            <a>
+              the first post
+            </a>
+          </Link>,
+          "className": "c-post__title",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "as": "/posts/undefined",
+            "children": <a>
+              the first post
+            </a>,
+            "href": "/showPost?slug=undefined",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "the first post",
+            },
+            "ref": null,
+            "rendered": "the first post",
+            "type": "a",
+          },
+          "type": [Function],
+        },
+        "type": "h1",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="c-post"
+        >
+          <h1
+            className="c-post__title"
+          >
+            <Link
+              as="/posts/undefined"
+              href="/showPost?slug=undefined"
+            >
+              <a>
+                the first post
+              </a>
+            </Link>
+          </h1>
+        </div>,
+        "className": "l-posts",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="c-post__title"
+          >
+            <Link
+              as="/posts/undefined"
+              href="/showPost?slug=undefined"
+            >
+              <a>
+                the first post
+              </a>
+            </Link>
+          </h1>,
+          "className": "c-post",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              as="/posts/undefined"
+              href="/showPost?slug=undefined"
+            >
+              <a>
+                the first post
+              </a>
+            </Link>,
+            "className": "c-post__title",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "/posts/undefined",
+              "children": <a>
+                the first post
+              </a>,
+              "href": "/showPost?slug=undefined",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "the first post",
+              },
+              "ref": null,
+              "rendered": "the first post",
+              "type": "a",
+            },
+            "type": [Function],
+          },
+          "type": "h1",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
