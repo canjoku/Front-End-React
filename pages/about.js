@@ -1,14 +1,18 @@
 import { Component } from 'react'
-import Layout from '../components/Layout'
+import About from '../components/About'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar';
 
-class About extends Component {
+class AboutPage extends Component {
   render () {
     return (
-      <Layout>
-        <h1>About TBlog</h1>
-      </Layout>
+      <React.Fragment>
+        <Navbar />
+        <About />
+        <Footer />
+      </React.Fragment>
     )
   }
 }
 
-export default About
+export default AboutPage

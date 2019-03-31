@@ -1,7 +1,28 @@
 :root {
-  --link-colour: #36b6dd;
-  --text-colour: #FFFFFF;
-  --background-colour: #FFFFFF;
-  --footer-background:rgb(68, 65, 59);
-  --black-colour: #111E24;
+  //COLORS
+  --light-blue-rgba: rgba(37, 113, 184, 0.726);
+  --dark-blue-rgba: rgba(85, 67, 250, 0.534);
+  --cornflower-blue: #79A9F5;
+  --baby-blue: #C2E2F5;
+  --light-grey-1: #F7F7F7;
+  --light-grey-2: #EEEEEE;
+  --black: #000;
+  --white: #FFFFFF;
+  --light-yellow: #FFB900;
+  --dark-yellow: #FF7730;
+  --dark-blue: #5643fA;
+  --light-blue: #2998FF;
+  --light-green: #7ED56F;
+  --dark-green: #28B485;
+  --dark-grey: #777;
+  --dark-grey2: #999;
+  --dark-grey3: #333;
+
+
+  //GRID
+  --grid-width: 71.25rem;
+  --grid-width-small: 31.25rem;
+  --vertical-gutter: 5rem;
+  --vertical-gutter-small: 3.125rem;
+  --horizontal-gutter: 3.75rem;
 }

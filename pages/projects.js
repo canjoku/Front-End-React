@@ -1,14 +1,22 @@
 import { Component } from 'react'
-import Layout from '../components/Layout'
+import Projects from '../components/Projects'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
-class Projects extends Component {
+
+
+
+class ProjectsPage extends Component {
   render () {
     return (
-      <Layout>
-        <h1>Projects Page</h1>
-      </Layout>
+      <React.Fragment>
+        <Navbar/>
+        <Projects />
+        <Footer />
+      </React.Fragment>
     )
   }
 }
 
-export default Projects
+export default ProjectsPage
+

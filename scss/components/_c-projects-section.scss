@@ -1,0 +1,31 @@
+.c-projects-section {
+  background-color: var(--light-grey-1);
+  padding: 20rem 0 15rem 0;
+  margin-top: -25vh;
+
+  @include response(tab-port) {
+    padding: 10rem 0;
+  }
+
+  &__primary-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--dark-green), var(--dark-green));
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.2s all;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+
+    &:hover {
+      transform: skewY(2deg) skewX(15deg) scale(1.1);
+      text-shadow: .3rem 0.625rem 1.25rem rgba(var(--black), .2)
+    }
+
+    @include response(tab-port) {
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,3579 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Projects /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Projects />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="u-center-text u-bottom-margin-small"
+        >
+          <h2
+            className="c-projects-section__primary-heading"
+          >
+            Projects
+          </h2>
+        </div>,
+        <div
+          className="g-grid__row"
+        >
+          <div
+            className="g-grid__col-1-of-3"
+          >
+            <div
+              className="c-projects-card"
+            >
+              <div
+                className="c-projects-card__side c-projects-card__side--front"
+              >
+                <div
+                  className="c-projects-card__picture c-projects-card__picture--1"
+                >
+                   
+                </div>
+                <h4
+                  className="c-projects-card__heading"
+                >
+                  <span
+                    className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                  >
+                    Ruby on Rails GRAPHQL API App
+                  </span>
+                </h4>
+                <div
+                  className="c-projects-card__details"
+                >
+                  <ul>
+                    <li>
+                      Testing: RSpec/Capybara
+                    </li>
+                    <li>
+                      Continuous Integration
+                    </li>
+                    <li>
+                      Amazon Web Services
+                    </li>
+                    <li>
+                      Containerisation
+                    </li>
+                    <li>
+                      GraphQL Implementation
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+              >
+                <div
+                  className="c-projects-card__cta"
+                >
+                  <p
+                    className="c-projects-card__cta-text"
+                  >
+                    Ruby Project
+                  </p>
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                    target="blank"
+                  >
+                    <i
+                      className="icon-basic-server2"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="g-grid__col-1-of-3"
+          >
+            <div
+              className="c-projects-card"
+            >
+              <div
+                className="c-projects-card__side c-projects-card__side--front"
+              >
+                <div
+                  className="c-projects-card__picture c-projects-card__picture--2"
+                >
+                   
+                </div>
+                <h4
+                  className="c-projects-card__heading"
+                >
+                  <span
+                    className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                  >
+                    Server Side Rendered ReactJS App
+                  </span>
+                </h4>
+                <div
+                  className="c-projects-card__details"
+                >
+                  <ul>
+                    <li>
+                      Ruby GraphQL
+                    </li>
+                    <li>
+                      Node 10, NextJS, ReactJS
+                    </li>
+                    <li>
+                      Jest/Enzyme Tests
+                    </li>
+                    <li>
+                      Apollo Implementation
+                    </li>
+                    <li>
+                      Auth0
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+              >
+                <div
+                  className="c-projects-card__cta"
+                >
+                  <p
+                    className="c-projects-card__cta-text"
+                  >
+                    React Project
+                  </p>
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                    target="blank"
+                  >
+                    <i
+                      className="icon-basic-link"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="g-grid__col-1-of-3 "
+          >
+            <div
+              className="c-projects-card"
+            >
+              <div
+                className="c-projects-card__side c-projects-card__side--front"
+              >
+                <div
+                  className="c-projects-card__picture c-projects-card__picture--3"
+                >
+                   
+                </div>
+                <h4
+                  className="c-projects-card__heading"
+                >
+                  <span
+                    className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                  >
+                    Shift Commerce Platform
+                  </span>
+                </h4>
+                <div
+                  className="c-projects-card__details"
+                >
+                  <ul>
+                    <li>
+                      Production ready code
+                    </li>
+                    <li>
+                      Stand Ups
+                    </li>
+                    <li>
+                      Commercial Team Experience
+                    </li>
+                    <li>
+                      Web platform implementation
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+              >
+                <div
+                  className="c-projects-card__cta"
+                >
+                  <p
+                    className="c-projects-card__cta-text"
+                  >
+                    Commercial Experience
+                  </p>
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="#"
+                  >
+                    <i
+                      className="icon-basic-webpage-multiple"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "c-projects-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2
+            className="c-projects-section__primary-heading"
+          >
+            Projects
+          </h2>,
+          "className": "u-center-text u-bottom-margin-small",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Projects",
+            "className": "c-projects-section__primary-heading",
+          },
+          "ref": null,
+          "rendered": "Projects",
+          "type": "h2",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="g-grid__col-1-of-3"
+            >
+              <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--1"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                    >
+                      Ruby on Rails GRAPHQL API App
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Testing: RSpec/Capybara
+                      </li>
+                      <li>
+                        Continuous Integration
+                      </li>
+                      <li>
+                        Amazon Web Services
+                      </li>
+                      <li>
+                        Containerisation
+                      </li>
+                      <li>
+                        GraphQL Implementation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Ruby Project
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                      target="blank"
+                    >
+                      <i
+                        className="icon-basic-server2"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="g-grid__col-1-of-3"
+            >
+              <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--2"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                    >
+                      Server Side Rendered ReactJS App
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Ruby GraphQL
+                      </li>
+                      <li>
+                        Node 10, NextJS, ReactJS
+                      </li>
+                      <li>
+                        Jest/Enzyme Tests
+                      </li>
+                      <li>
+                        Apollo Implementation
+                      </li>
+                      <li>
+                        Auth0
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      React Project
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                      target="blank"
+                    >
+                      <i
+                        className="icon-basic-link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="g-grid__col-1-of-3 "
+            >
+              <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--3"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                    >
+                      Shift Commerce Platform
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Production ready code
+                      </li>
+                      <li>
+                        Stand Ups
+                      </li>
+                      <li>
+                        Commercial Team Experience
+                      </li>
+                      <li>
+                        Web platform implementation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Commercial Experience
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="#"
+                    >
+                      <i
+                        className="icon-basic-webpage-multiple"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "g-grid__row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--1"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                    >
+                      Ruby on Rails GRAPHQL API App
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Testing: RSpec/Capybara
+                      </li>
+                      <li>
+                        Continuous Integration
+                      </li>
+                      <li>
+                        Amazon Web Services
+                      </li>
+                      <li>
+                        Containerisation
+                      </li>
+                      <li>
+                        GraphQL Implementation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Ruby Project
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                      target="blank"
+                    >
+                      <i
+                        className="icon-basic-server2"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>,
+              "className": "g-grid__col-1-of-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--1"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                      >
+                        Ruby on Rails GRAPHQL API App
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Testing: RSpec/Capybara
+                        </li>
+                        <li>
+                          Continuous Integration
+                        </li>
+                        <li>
+                          Amazon Web Services
+                        </li>
+                        <li>
+                          Containerisation
+                        </li>
+                        <li>
+                          GraphQL Implementation
+                        </li>
+                      </ul>
+                    </div>
+                  </div>,
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-server2"
+                        />
+                      </a>
+                    </div>
+                  </div>,
+                ],
+                "className": "c-projects-card",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="c-projects-card__picture c-projects-card__picture--1"
+                      >
+                         
+                      </div>,
+                      <h4
+                        className="c-projects-card__heading"
+                      >
+                        <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                        >
+                          Ruby on Rails GRAPHQL API App
+                        </span>
+                      </h4>,
+                      <div
+                        className="c-projects-card__details"
+                      >
+                        <ul>
+                          <li>
+                            Testing: RSpec/Capybara
+                          </li>
+                          <li>
+                            Continuous Integration
+                          </li>
+                          <li>
+                            Amazon Web Services
+                          </li>
+                          <li>
+                            Containerisation
+                          </li>
+                          <li>
+                            GraphQL Implementation
+                          </li>
+                        </ul>
+                      </div>,
+                    ],
+                    "className": "c-projects-card__side c-projects-card__side--front",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": " ",
+                        "className": "c-projects-card__picture c-projects-card__picture--1",
+                      },
+                      "ref": null,
+                      "rendered": " ",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                        >
+                          Ruby on Rails GRAPHQL API App
+                        </span>,
+                        "className": "c-projects-card__heading",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Ruby on Rails GRAPHQL API App",
+                          "className": "c-projects-card__heading-span c-projects-card__heading-span--1",
+                        },
+                        "ref": null,
+                        "rendered": "Ruby on Rails GRAPHQL API App",
+                        "type": "span",
+                      },
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ul>
+                          <li>
+                            Testing: RSpec/Capybara
+                          </li>
+                          <li>
+                            Continuous Integration
+                          </li>
+                          <li>
+                            Amazon Web Services
+                          </li>
+                          <li>
+                            Containerisation
+                          </li>
+                          <li>
+                            GraphQL Implementation
+                          </li>
+                        </ul>,
+                        "className": "c-projects-card__details",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              Testing: RSpec/Capybara
+                            </li>,
+                            <li>
+                              Continuous Integration
+                            </li>,
+                            <li>
+                              Amazon Web Services
+                            </li>,
+                            <li>
+                              Containerisation
+                            </li>,
+                            <li>
+                              GraphQL Implementation
+                            </li>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Testing: RSpec/Capybara",
+                            },
+                            "ref": null,
+                            "rendered": "Testing: RSpec/Capybara",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Continuous Integration",
+                            },
+                            "ref": null,
+                            "rendered": "Continuous Integration",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Amazon Web Services",
+                            },
+                            "ref": null,
+                            "rendered": "Amazon Web Services",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Containerisation",
+                            },
+                            "ref": null,
+                            "rendered": "Containerisation",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "GraphQL Implementation",
+                            },
+                            "ref": null,
+                            "rendered": "GraphQL Implementation",
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-server2"
+                        />
+                      </a>
+                    </div>,
+                    "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back1",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>,
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                          target="blank"
+                        >
+                          <i
+                            className="icon-basic-server2"
+                          />
+                        </a>,
+                      ],
+                      "className": "c-projects-card__cta",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Ruby Project",
+                          "className": "c-projects-card__cta-text",
+                        },
+                        "ref": null,
+                        "rendered": "Ruby Project",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            className="icon-basic-server2"
+                          />,
+                          "className": "c-projects-card__cta-link",
+                          "href": "https://github.com/affinity-digital-ltd/Tonys-blog",
+                          "target": "blank",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "icon-basic-server2",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--2"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                    >
+                      Server Side Rendered ReactJS App
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Ruby GraphQL
+                      </li>
+                      <li>
+                        Node 10, NextJS, ReactJS
+                      </li>
+                      <li>
+                        Jest/Enzyme Tests
+                      </li>
+                      <li>
+                        Apollo Implementation
+                      </li>
+                      <li>
+                        Auth0
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      React Project
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                      target="blank"
+                    >
+                      <i
+                        className="icon-basic-link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>,
+              "className": "g-grid__col-1-of-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--2"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                      >
+                        Server Side Rendered ReactJS App
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Ruby GraphQL
+                        </li>
+                        <li>
+                          Node 10, NextJS, ReactJS
+                        </li>
+                        <li>
+                          Jest/Enzyme Tests
+                        </li>
+                        <li>
+                          Apollo Implementation
+                        </li>
+                        <li>
+                          Auth0
+                        </li>
+                      </ul>
+                    </div>
+                  </div>,
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-link"
+                        />
+                      </a>
+                    </div>
+                  </div>,
+                ],
+                "className": "c-projects-card",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="c-projects-card__picture c-projects-card__picture--2"
+                      >
+                         
+                      </div>,
+                      <h4
+                        className="c-projects-card__heading"
+                      >
+                        <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                        >
+                          Server Side Rendered ReactJS App
+                        </span>
+                      </h4>,
+                      <div
+                        className="c-projects-card__details"
+                      >
+                        <ul>
+                          <li>
+                            Ruby GraphQL
+                          </li>
+                          <li>
+                            Node 10, NextJS, ReactJS
+                          </li>
+                          <li>
+                            Jest/Enzyme Tests
+                          </li>
+                          <li>
+                            Apollo Implementation
+                          </li>
+                          <li>
+                            Auth0
+                          </li>
+                        </ul>
+                      </div>,
+                    ],
+                    "className": "c-projects-card__side c-projects-card__side--front",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": " ",
+                        "className": "c-projects-card__picture c-projects-card__picture--2",
+                      },
+                      "ref": null,
+                      "rendered": " ",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                        >
+                          Server Side Rendered ReactJS App
+                        </span>,
+                        "className": "c-projects-card__heading",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Server Side Rendered ReactJS App",
+                          "className": "c-projects-card__heading-span c-projects-card__heading-span--2",
+                        },
+                        "ref": null,
+                        "rendered": "Server Side Rendered ReactJS App",
+                        "type": "span",
+                      },
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ul>
+                          <li>
+                            Ruby GraphQL
+                          </li>
+                          <li>
+                            Node 10, NextJS, ReactJS
+                          </li>
+                          <li>
+                            Jest/Enzyme Tests
+                          </li>
+                          <li>
+                            Apollo Implementation
+                          </li>
+                          <li>
+                            Auth0
+                          </li>
+                        </ul>,
+                        "className": "c-projects-card__details",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              Ruby GraphQL
+                            </li>,
+                            <li>
+                              Node 10, NextJS, ReactJS
+                            </li>,
+                            <li>
+                              Jest/Enzyme Tests
+                            </li>,
+                            <li>
+                              Apollo Implementation
+                            </li>,
+                            <li>
+                              Auth0
+                            </li>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Ruby GraphQL",
+                            },
+                            "ref": null,
+                            "rendered": "Ruby GraphQL",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Node 10, NextJS, ReactJS",
+                            },
+                            "ref": null,
+                            "rendered": "Node 10, NextJS, ReactJS",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Jest/Enzyme Tests",
+                            },
+                            "ref": null,
+                            "rendered": "Jest/Enzyme Tests",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Apollo Implementation",
+                            },
+                            "ref": null,
+                            "rendered": "Apollo Implementation",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Auth0",
+                            },
+                            "ref": null,
+                            "rendered": "Auth0",
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-link"
+                        />
+                      </a>
+                    </div>,
+                    "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>,
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                          target="blank"
+                        >
+                          <i
+                            className="icon-basic-link"
+                          />
+                        </a>,
+                      ],
+                      "className": "c-projects-card__cta",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "React Project",
+                          "className": "c-projects-card__cta-text",
+                        },
+                        "ref": null,
+                        "rendered": "React Project",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            className="icon-basic-link"
+                          />,
+                          "className": "c-projects-card__cta-link",
+                          "href": "https://github.com/affinity-digital-ltd/TBlog-FrontEnd",
+                          "target": "blank",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "icon-basic-link",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--3"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                    >
+                      Shift Commerce Platform
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Production ready code
+                      </li>
+                      <li>
+                        Stand Ups
+                      </li>
+                      <li>
+                        Commercial Team Experience
+                      </li>
+                      <li>
+                        Web platform implementation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Commercial Experience
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="#"
+                    >
+                      <i
+                        className="icon-basic-webpage-multiple"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>,
+              "className": "g-grid__col-1-of-3 ",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--3"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                      >
+                        Shift Commerce Platform
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Production ready code
+                        </li>
+                        <li>
+                          Stand Ups
+                        </li>
+                        <li>
+                          Commercial Team Experience
+                        </li>
+                        <li>
+                          Web platform implementation
+                        </li>
+                      </ul>
+                    </div>
+                  </div>,
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="#"
+                      >
+                        <i
+                          className="icon-basic-webpage-multiple"
+                        />
+                      </a>
+                    </div>
+                  </div>,
+                ],
+                "className": "c-projects-card",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="c-projects-card__picture c-projects-card__picture--3"
+                      >
+                         
+                      </div>,
+                      <h4
+                        className="c-projects-card__heading"
+                      >
+                        <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                        >
+                          Shift Commerce Platform
+                        </span>
+                      </h4>,
+                      <div
+                        className="c-projects-card__details"
+                      >
+                        <ul>
+                          <li>
+                            Production ready code
+                          </li>
+                          <li>
+                            Stand Ups
+                          </li>
+                          <li>
+                            Commercial Team Experience
+                          </li>
+                          <li>
+                            Web platform implementation
+                          </li>
+                        </ul>
+                      </div>,
+                    ],
+                    "className": "c-projects-card__side c-projects-card__side--front",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": " ",
+                        "className": "c-projects-card__picture c-projects-card__picture--3",
+                      },
+                      "ref": null,
+                      "rendered": " ",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                        >
+                          Shift Commerce Platform
+                        </span>,
+                        "className": "c-projects-card__heading",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Shift Commerce Platform",
+                          "className": "c-projects-card__heading-span c-projects-card__heading-span--3",
+                        },
+                        "ref": null,
+                        "rendered": "Shift Commerce Platform",
+                        "type": "span",
+                      },
+                      "type": "h4",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ul>
+                          <li>
+                            Production ready code
+                          </li>
+                          <li>
+                            Stand Ups
+                          </li>
+                          <li>
+                            Commercial Team Experience
+                          </li>
+                          <li>
+                            Web platform implementation
+                          </li>
+                        </ul>,
+                        "className": "c-projects-card__details",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <li>
+                              Production ready code
+                            </li>,
+                            <li>
+                              Stand Ups
+                            </li>,
+                            <li>
+                              Commercial Team Experience
+                            </li>,
+                            <li>
+                              Web platform implementation
+                            </li>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Production ready code",
+                            },
+                            "ref": null,
+                            "rendered": "Production ready code",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Stand Ups",
+                            },
+                            "ref": null,
+                            "rendered": "Stand Ups",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Commercial Team Experience",
+                            },
+                            "ref": null,
+                            "rendered": "Commercial Team Experience",
+                            "type": "li",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Web platform implementation",
+                            },
+                            "ref": null,
+                            "rendered": "Web platform implementation",
+                            "type": "li",
+                          },
+                        ],
+                        "type": "ul",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="#"
+                      >
+                        <i
+                          className="icon-basic-webpage-multiple"
+                        />
+                      </a>
+                    </div>,
+                    "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back3",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>,
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="#"
+                        >
+                          <i
+                            className="icon-basic-webpage-multiple"
+                          />
+                        </a>,
+                      ],
+                      "className": "c-projects-card__cta",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Commercial Experience",
+                          "className": "c-projects-card__cta-text",
+                        },
+                        "ref": null,
+                        "rendered": "Commercial Experience",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <i
+                            className="icon-basic-webpage-multiple"
+                          />,
+                          "className": "c-projects-card__cta-link",
+                          "href": "#",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "icon-basic-webpage-multiple",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        "type": "a",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="u-center-text u-bottom-margin-small"
+          >
+            <h2
+              className="c-projects-section__primary-heading"
+            >
+              Projects
+            </h2>
+          </div>,
+          <div
+            className="g-grid__row"
+          >
+            <div
+              className="g-grid__col-1-of-3"
+            >
+              <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--1"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                    >
+                      Ruby on Rails GRAPHQL API App
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Testing: RSpec/Capybara
+                      </li>
+                      <li>
+                        Continuous Integration
+                      </li>
+                      <li>
+                        Amazon Web Services
+                      </li>
+                      <li>
+                        Containerisation
+                      </li>
+                      <li>
+                        GraphQL Implementation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Ruby Project
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                      target="blank"
+                    >
+                      <i
+                        className="icon-basic-server2"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="g-grid__col-1-of-3"
+            >
+              <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--2"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                    >
+                      Server Side Rendered ReactJS App
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Ruby GraphQL
+                      </li>
+                      <li>
+                        Node 10, NextJS, ReactJS
+                      </li>
+                      <li>
+                        Jest/Enzyme Tests
+                      </li>
+                      <li>
+                        Apollo Implementation
+                      </li>
+                      <li>
+                        Auth0
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      React Project
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                      target="blank"
+                    >
+                      <i
+                        className="icon-basic-link"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="g-grid__col-1-of-3 "
+            >
+              <div
+                className="c-projects-card"
+              >
+                <div
+                  className="c-projects-card__side c-projects-card__side--front"
+                >
+                  <div
+                    className="c-projects-card__picture c-projects-card__picture--3"
+                  >
+                     
+                  </div>
+                  <h4
+                    className="c-projects-card__heading"
+                  >
+                    <span
+                      className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                    >
+                      Shift Commerce Platform
+                    </span>
+                  </h4>
+                  <div
+                    className="c-projects-card__details"
+                  >
+                    <ul>
+                      <li>
+                        Production ready code
+                      </li>
+                      <li>
+                        Stand Ups
+                      </li>
+                      <li>
+                        Commercial Team Experience
+                      </li>
+                      <li>
+                        Web platform implementation
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                >
+                  <div
+                    className="c-projects-card__cta"
+                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Commercial Experience
+                    </p>
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="#"
+                    >
+                      <i
+                        className="icon-basic-webpage-multiple"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "c-projects-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2
+              className="c-projects-section__primary-heading"
+            >
+              Projects
+            </h2>,
+            "className": "u-center-text u-bottom-margin-small",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Projects",
+              "className": "c-projects-section__primary-heading",
+            },
+            "ref": null,
+            "rendered": "Projects",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="g-grid__col-1-of-3"
+              >
+                <div
+                  className="c-projects-card"
+                >
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--1"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                      >
+                        Ruby on Rails GRAPHQL API App
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Testing: RSpec/Capybara
+                        </li>
+                        <li>
+                          Continuous Integration
+                        </li>
+                        <li>
+                          Amazon Web Services
+                        </li>
+                        <li>
+                          Containerisation
+                        </li>
+                        <li>
+                          GraphQL Implementation
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-server2"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="g-grid__col-1-of-3"
+              >
+                <div
+                  className="c-projects-card"
+                >
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--2"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                      >
+                        Server Side Rendered ReactJS App
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Ruby GraphQL
+                        </li>
+                        <li>
+                          Node 10, NextJS, ReactJS
+                        </li>
+                        <li>
+                          Jest/Enzyme Tests
+                        </li>
+                        <li>
+                          Apollo Implementation
+                        </li>
+                        <li>
+                          Auth0
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-link"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="g-grid__col-1-of-3 "
+              >
+                <div
+                  className="c-projects-card"
+                >
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--3"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                      >
+                        Shift Commerce Platform
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Production ready code
+                        </li>
+                        <li>
+                          Stand Ups
+                        </li>
+                        <li>
+                          Commercial Team Experience
+                        </li>
+                        <li>
+                          Web platform implementation
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="#"
+                      >
+                        <i
+                          className="icon-basic-webpage-multiple"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "g-grid__row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="c-projects-card"
+                >
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--1"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                      >
+                        Ruby on Rails GRAPHQL API App
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Testing: RSpec/Capybara
+                        </li>
+                        <li>
+                          Continuous Integration
+                        </li>
+                        <li>
+                          Amazon Web Services
+                        </li>
+                        <li>
+                          Containerisation
+                        </li>
+                        <li>
+                          GraphQL Implementation
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-server2"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>,
+                "className": "g-grid__col-1-of-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="c-projects-card__side c-projects-card__side--front"
+                    >
+                      <div
+                        className="c-projects-card__picture c-projects-card__picture--1"
+                      >
+                         
+                      </div>
+                      <h4
+                        className="c-projects-card__heading"
+                      >
+                        <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                        >
+                          Ruby on Rails GRAPHQL API App
+                        </span>
+                      </h4>
+                      <div
+                        className="c-projects-card__details"
+                      >
+                        <ul>
+                          <li>
+                            Testing: RSpec/Capybara
+                          </li>
+                          <li>
+                            Continuous Integration
+                          </li>
+                          <li>
+                            Amazon Web Services
+                          </li>
+                          <li>
+                            Containerisation
+                          </li>
+                          <li>
+                            GraphQL Implementation
+                          </li>
+                        </ul>
+                      </div>
+                    </div>,
+                    <div
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                    >
+                      <div
+                        className="c-projects-card__cta"
+                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                          target="blank"
+                        >
+                          <i
+                            className="icon-basic-server2"
+                          />
+                        </a>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "c-projects-card",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="c-projects-card__picture c-projects-card__picture--1"
+                        >
+                           
+                        </div>,
+                        <h4
+                          className="c-projects-card__heading"
+                        >
+                          <span
+                            className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                          >
+                            Ruby on Rails GRAPHQL API App
+                          </span>
+                        </h4>,
+                        <div
+                          className="c-projects-card__details"
+                        >
+                          <ul>
+                            <li>
+                              Testing: RSpec/Capybara
+                            </li>
+                            <li>
+                              Continuous Integration
+                            </li>
+                            <li>
+                              Amazon Web Services
+                            </li>
+                            <li>
+                              Containerisation
+                            </li>
+                            <li>
+                              GraphQL Implementation
+                            </li>
+                          </ul>
+                        </div>,
+                      ],
+                      "className": "c-projects-card__side c-projects-card__side--front",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": " ",
+                          "className": "c-projects-card__picture c-projects-card__picture--1",
+                        },
+                        "ref": null,
+                        "rendered": " ",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <span
+                            className="c-projects-card__heading-span c-projects-card__heading-span--1"
+                          >
+                            Ruby on Rails GRAPHQL API App
+                          </span>,
+                          "className": "c-projects-card__heading",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Ruby on Rails GRAPHQL API App",
+                            "className": "c-projects-card__heading-span c-projects-card__heading-span--1",
+                          },
+                          "ref": null,
+                          "rendered": "Ruby on Rails GRAPHQL API App",
+                          "type": "span",
+                        },
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <ul>
+                            <li>
+                              Testing: RSpec/Capybara
+                            </li>
+                            <li>
+                              Continuous Integration
+                            </li>
+                            <li>
+                              Amazon Web Services
+                            </li>
+                            <li>
+                              Containerisation
+                            </li>
+                            <li>
+                              GraphQL Implementation
+                            </li>
+                          </ul>,
+                          "className": "c-projects-card__details",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <li>
+                                Testing: RSpec/Capybara
+                              </li>,
+                              <li>
+                                Continuous Integration
+                              </li>,
+                              <li>
+                                Amazon Web Services
+                              </li>,
+                              <li>
+                                Containerisation
+                              </li>,
+                              <li>
+                                GraphQL Implementation
+                              </li>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Testing: RSpec/Capybara",
+                              },
+                              "ref": null,
+                              "rendered": "Testing: RSpec/Capybara",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Continuous Integration",
+                              },
+                              "ref": null,
+                              "rendered": "Continuous Integration",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Amazon Web Services",
+                              },
+                              "ref": null,
+                              "rendered": "Amazon Web Services",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Containerisation",
+                              },
+                              "ref": null,
+                              "rendered": "Containerisation",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "GraphQL Implementation",
+                              },
+                              "ref": null,
+                              "rendered": "GraphQL Implementation",
+                              "type": "li",
+                            },
+                          ],
+                          "type": "ul",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="c-projects-card__cta"
+                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                          target="blank"
+                        >
+                          <i
+                            className="icon-basic-server2"
+                          />
+                        </a>
+                      </div>,
+                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back1",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Ruby Project
+                          </p>,
+                          <a
+                            className="c-projects-card__cta-link"
+                            href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                            target="blank"
+                          >
+                            <i
+                              className="icon-basic-server2"
+                            />
+                          </a>,
+                        ],
+                        "className": "c-projects-card__cta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Ruby Project",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "Ruby Project",
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <i
+                              className="icon-basic-server2"
+                            />,
+                            "className": "c-projects-card__cta-link",
+                            "href": "https://github.com/affinity-digital-ltd/Tonys-blog",
+                            "target": "blank",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "icon-basic-server2",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          "type": "a",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="c-projects-card"
+                >
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--2"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                      >
+                        Server Side Rendered ReactJS App
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Ruby GraphQL
+                        </li>
+                        <li>
+                          Node 10, NextJS, ReactJS
+                        </li>
+                        <li>
+                          Jest/Enzyme Tests
+                        </li>
+                        <li>
+                          Apollo Implementation
+                        </li>
+                        <li>
+                          Auth0
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                        target="blank"
+                      >
+                        <i
+                          className="icon-basic-link"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>,
+                "className": "g-grid__col-1-of-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="c-projects-card__side c-projects-card__side--front"
+                    >
+                      <div
+                        className="c-projects-card__picture c-projects-card__picture--2"
+                      >
+                         
+                      </div>
+                      <h4
+                        className="c-projects-card__heading"
+                      >
+                        <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                        >
+                          Server Side Rendered ReactJS App
+                        </span>
+                      </h4>
+                      <div
+                        className="c-projects-card__details"
+                      >
+                        <ul>
+                          <li>
+                            Ruby GraphQL
+                          </li>
+                          <li>
+                            Node 10, NextJS, ReactJS
+                          </li>
+                          <li>
+                            Jest/Enzyme Tests
+                          </li>
+                          <li>
+                            Apollo Implementation
+                          </li>
+                          <li>
+                            Auth0
+                          </li>
+                        </ul>
+                      </div>
+                    </div>,
+                    <div
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                    >
+                      <div
+                        className="c-projects-card__cta"
+                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                          target="blank"
+                        >
+                          <i
+                            className="icon-basic-link"
+                          />
+                        </a>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "c-projects-card",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="c-projects-card__picture c-projects-card__picture--2"
+                        >
+                           
+                        </div>,
+                        <h4
+                          className="c-projects-card__heading"
+                        >
+                          <span
+                            className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                          >
+                            Server Side Rendered ReactJS App
+                          </span>
+                        </h4>,
+                        <div
+                          className="c-projects-card__details"
+                        >
+                          <ul>
+                            <li>
+                              Ruby GraphQL
+                            </li>
+                            <li>
+                              Node 10, NextJS, ReactJS
+                            </li>
+                            <li>
+                              Jest/Enzyme Tests
+                            </li>
+                            <li>
+                              Apollo Implementation
+                            </li>
+                            <li>
+                              Auth0
+                            </li>
+                          </ul>
+                        </div>,
+                      ],
+                      "className": "c-projects-card__side c-projects-card__side--front",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": " ",
+                          "className": "c-projects-card__picture c-projects-card__picture--2",
+                        },
+                        "ref": null,
+                        "rendered": " ",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <span
+                            className="c-projects-card__heading-span c-projects-card__heading-span--2"
+                          >
+                            Server Side Rendered ReactJS App
+                          </span>,
+                          "className": "c-projects-card__heading",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Server Side Rendered ReactJS App",
+                            "className": "c-projects-card__heading-span c-projects-card__heading-span--2",
+                          },
+                          "ref": null,
+                          "rendered": "Server Side Rendered ReactJS App",
+                          "type": "span",
+                        },
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <ul>
+                            <li>
+                              Ruby GraphQL
+                            </li>
+                            <li>
+                              Node 10, NextJS, ReactJS
+                            </li>
+                            <li>
+                              Jest/Enzyme Tests
+                            </li>
+                            <li>
+                              Apollo Implementation
+                            </li>
+                            <li>
+                              Auth0
+                            </li>
+                          </ul>,
+                          "className": "c-projects-card__details",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <li>
+                                Ruby GraphQL
+                              </li>,
+                              <li>
+                                Node 10, NextJS, ReactJS
+                              </li>,
+                              <li>
+                                Jest/Enzyme Tests
+                              </li>,
+                              <li>
+                                Apollo Implementation
+                              </li>,
+                              <li>
+                                Auth0
+                              </li>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Ruby GraphQL",
+                              },
+                              "ref": null,
+                              "rendered": "Ruby GraphQL",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Node 10, NextJS, ReactJS",
+                              },
+                              "ref": null,
+                              "rendered": "Node 10, NextJS, ReactJS",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Jest/Enzyme Tests",
+                              },
+                              "ref": null,
+                              "rendered": "Jest/Enzyme Tests",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Apollo Implementation",
+                              },
+                              "ref": null,
+                              "rendered": "Apollo Implementation",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Auth0",
+                              },
+                              "ref": null,
+                              "rendered": "Auth0",
+                              "type": "li",
+                            },
+                          ],
+                          "type": "ul",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="c-projects-card__cta"
+                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                          target="blank"
+                        >
+                          <i
+                            className="icon-basic-link"
+                          />
+                        </a>
+                      </div>,
+                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            React Project
+                          </p>,
+                          <a
+                            className="c-projects-card__cta-link"
+                            href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                            target="blank"
+                          >
+                            <i
+                              className="icon-basic-link"
+                            />
+                          </a>,
+                        ],
+                        "className": "c-projects-card__cta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "React Project",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "React Project",
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <i
+                              className="icon-basic-link"
+                            />,
+                            "className": "c-projects-card__cta-link",
+                            "href": "https://github.com/affinity-digital-ltd/TBlog-FrontEnd",
+                            "target": "blank",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "icon-basic-link",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          "type": "a",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="c-projects-card"
+                >
+                  <div
+                    className="c-projects-card__side c-projects-card__side--front"
+                  >
+                    <div
+                      className="c-projects-card__picture c-projects-card__picture--3"
+                    >
+                       
+                    </div>
+                    <h4
+                      className="c-projects-card__heading"
+                    >
+                      <span
+                        className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                      >
+                        Shift Commerce Platform
+                      </span>
+                    </h4>
+                    <div
+                      className="c-projects-card__details"
+                    >
+                      <ul>
+                        <li>
+                          Production ready code
+                        </li>
+                        <li>
+                          Stand Ups
+                        </li>
+                        <li>
+                          Commercial Team Experience
+                        </li>
+                        <li>
+                          Web platform implementation
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                  >
+                    <div
+                      className="c-projects-card__cta"
+                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
+                      <a
+                        className="c-projects-card__cta-link"
+                        href="#"
+                      >
+                        <i
+                          className="icon-basic-webpage-multiple"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>,
+                "className": "g-grid__col-1-of-3 ",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="c-projects-card__side c-projects-card__side--front"
+                    >
+                      <div
+                        className="c-projects-card__picture c-projects-card__picture--3"
+                      >
+                         
+                      </div>
+                      <h4
+                        className="c-projects-card__heading"
+                      >
+                        <span
+                          className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                        >
+                          Shift Commerce Platform
+                        </span>
+                      </h4>
+                      <div
+                        className="c-projects-card__details"
+                      >
+                        <ul>
+                          <li>
+                            Production ready code
+                          </li>
+                          <li>
+                            Stand Ups
+                          </li>
+                          <li>
+                            Commercial Team Experience
+                          </li>
+                          <li>
+                            Web platform implementation
+                          </li>
+                        </ul>
+                      </div>
+                    </div>,
+                    <div
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                    >
+                      <div
+                        className="c-projects-card__cta"
+                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="#"
+                        >
+                          <i
+                            className="icon-basic-webpage-multiple"
+                          />
+                        </a>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "c-projects-card",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="c-projects-card__picture c-projects-card__picture--3"
+                        >
+                           
+                        </div>,
+                        <h4
+                          className="c-projects-card__heading"
+                        >
+                          <span
+                            className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                          >
+                            Shift Commerce Platform
+                          </span>
+                        </h4>,
+                        <div
+                          className="c-projects-card__details"
+                        >
+                          <ul>
+                            <li>
+                              Production ready code
+                            </li>
+                            <li>
+                              Stand Ups
+                            </li>
+                            <li>
+                              Commercial Team Experience
+                            </li>
+                            <li>
+                              Web platform implementation
+                            </li>
+                          </ul>
+                        </div>,
+                      ],
+                      "className": "c-projects-card__side c-projects-card__side--front",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": " ",
+                          "className": "c-projects-card__picture c-projects-card__picture--3",
+                        },
+                        "ref": null,
+                        "rendered": " ",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <span
+                            className="c-projects-card__heading-span c-projects-card__heading-span--3"
+                          >
+                            Shift Commerce Platform
+                          </span>,
+                          "className": "c-projects-card__heading",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Shift Commerce Platform",
+                            "className": "c-projects-card__heading-span c-projects-card__heading-span--3",
+                          },
+                          "ref": null,
+                          "rendered": "Shift Commerce Platform",
+                          "type": "span",
+                        },
+                        "type": "h4",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <ul>
+                            <li>
+                              Production ready code
+                            </li>
+                            <li>
+                              Stand Ups
+                            </li>
+                            <li>
+                              Commercial Team Experience
+                            </li>
+                            <li>
+                              Web platform implementation
+                            </li>
+                          </ul>,
+                          "className": "c-projects-card__details",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <li>
+                                Production ready code
+                              </li>,
+                              <li>
+                                Stand Ups
+                              </li>,
+                              <li>
+                                Commercial Team Experience
+                              </li>,
+                              <li>
+                                Web platform implementation
+                              </li>,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Production ready code",
+                              },
+                              "ref": null,
+                              "rendered": "Production ready code",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Stand Ups",
+                              },
+                              "ref": null,
+                              "rendered": "Stand Ups",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Commercial Team Experience",
+                              },
+                              "ref": null,
+                              "rendered": "Commercial Team Experience",
+                              "type": "li",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Web platform implementation",
+                              },
+                              "ref": null,
+                              "rendered": "Web platform implementation",
+                              "type": "li",
+                            },
+                          ],
+                          "type": "ul",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="c-projects-card__cta"
+                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>
+                        <a
+                          className="c-projects-card__cta-link"
+                          href="#"
+                        >
+                          <i
+                            className="icon-basic-webpage-multiple"
+                          />
+                        </a>
+                      </div>,
+                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back3",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Commercial Experience
+                          </p>,
+                          <a
+                            className="c-projects-card__cta-link"
+                            href="#"
+                          >
+                            <i
+                              className="icon-basic-webpage-multiple"
+                            />
+                          </a>,
+                        ],
+                        "className": "c-projects-card__cta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Commercial Experience",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "Commercial Experience",
+                          "type": "p",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <i
+                              className="icon-basic-webpage-multiple"
+                            />,
+                            "className": "c-projects-card__cta-link",
+                            "href": "#",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "icon-basic-webpage-multiple",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          "type": "a",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

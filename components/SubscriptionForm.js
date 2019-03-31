@@ -35,12 +35,15 @@ class SubscriptionForm extends Component {
   render () {
     const { mutation } = this.props
     return (
-      <div>
-        <form onSubmit={(e) => this.submitSubscriber(e, mutation)}>
-          <input name="email" placeholder="Enter Valid Email"/>
-          <button>Subscribe</button>
+      <div className='c-subscription'>
+        <span><i className="icon-basic-mail"></i></span>
+        <h3>Subscribe</h3>
+        <p>Enter email below to subscribe for email notifications</p>
+        <form className='c-subscription__form' onSubmit={(e) => this.submitSubscriber(e, mutation)}>
+          <input placeholder= 'Email Address' className='c-subscription__form--input' name="email" type='email'/>
+          <button className='c-subscription__form--button'><i className="icon-basic-mouse"></i></button>
         </form>
-        <div>
+        <div className='c-subsrciption__status'>
           {this.showSubscribeStatus()}
         </div>
       </div>

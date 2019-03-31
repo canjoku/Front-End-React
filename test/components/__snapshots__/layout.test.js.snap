@@ -21,11 +21,15 @@ ShallowWrapper {
       "children": Array [
         <SideEffect(Head)>
           <title>
-             TBlog 
+            Chidi Njoku
           </title>
           <link
             href="/_next/static/style.css"
             rel="stylesheet"
+          />
+          <meta
+            content="width=device-width, initial-scale=1"
+            name="viewport"
           />
         </SideEffect(Head)>,
         <Header
@@ -34,7 +38,6 @@ ShallowWrapper {
         undefined,
         <Footer />,
       ],
-      "className": "l-wrapper",
     },
     "ref": null,
     "rendered": Array [
@@ -45,11 +48,15 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <title>
-               TBlog 
+              Chidi Njoku
             </title>,
             <link
               href="/_next/static/style.css"
               rel="stylesheet"
+            />,
+            <meta
+              content="width=device-width, initial-scale=1"
+              name="viewport"
             />,
           ],
         },
@@ -60,10 +67,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": " TBlog ",
+              "children": "Chidi Njoku",
             },
             "ref": null,
-            "rendered": " TBlog ",
+            "rendered": "Chidi Njoku",
             "type": "title",
           },
           Object {
@@ -77,6 +84,18 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "width=device-width, initial-scale=1",
+              "name": "viewport",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
           },
         ],
         "type": [Function],
@@ -114,11 +133,15 @@ ShallowWrapper {
         "children": Array [
           <SideEffect(Head)>
             <title>
-               TBlog 
+              Chidi Njoku
             </title>
             <link
               href="/_next/static/style.css"
               rel="stylesheet"
+            />
+            <meta
+              content="width=device-width, initial-scale=1"
+              name="viewport"
             />
           </SideEffect(Head)>,
           <Header
@@ -127,7 +150,6 @@ ShallowWrapper {
           undefined,
           <Footer />,
         ],
-        "className": "l-wrapper",
       },
       "ref": null,
       "rendered": Array [
@@ -138,11 +160,15 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <title>
-                 TBlog 
+                Chidi Njoku
               </title>,
               <link
                 href="/_next/static/style.css"
                 rel="stylesheet"
+              />,
+              <meta
+                content="width=device-width, initial-scale=1"
+                name="viewport"
               />,
             ],
           },
@@ -153,10 +179,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": " TBlog ",
+                "children": "Chidi Njoku",
               },
               "ref": null,
-              "rendered": " TBlog ",
+              "rendered": "Chidi Njoku",
               "type": "title",
             },
             Object {
@@ -170,6 +196,18 @@ ShallowWrapper {
               "ref": null,
               "rendered": null,
               "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "width=device-width, initial-scale=1",
+                "name": "viewport",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
             },
           ],
           "type": [Function],
@@ -220,5 +258,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

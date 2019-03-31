@@ -3,7 +3,9 @@ import { Query, Mutation } from 'react-apollo'
 import gql from 'graphql-tag'
 import withData from '../lib/withData'
 
-import PostCard from '../components/PostCard'
+import About from '../components/About'
+import Articles from '../components/Articles'
+import Projects from '../components/Projects'
 import Layout from '../components/Layout'
 import Skeleton from '../components/Skeleton'
 
@@ -11,10 +13,6 @@ import Skeleton from '../components/Skeleton'
 class Index extends Component {
   constructor (props) {
     super(props)
-
-    this.state = {
-      visible: true
-    }
 
     this.postsQuery = gql`
       {
@@ -34,32 +32,18 @@ class Index extends Component {
     `
   }
 
-  toggleState () {
-    this.setState({
-      visible: false
-    })
-  }
-
-  componentWillMount () {
-    this.toggleState();
-  }
-
   render () {
     return <Query query={this.postsQuery}>
     {({ loading, error, data: { posts } }) => {
-      if (loading) return <Layout><p>Loading Data ...</p></Layout>
+      if (loading) return <Layout><Skeleton count={3}/></Layout>
       if (error) return <Layout><p>Error retrieving Data ... </p></Layout>
       return(
         <Mutation mutation={this.createSubscriber} >
         {(newSubscriber) => {
           return <Layout {...this.props} mutation={newSubscriber}>
-            { posts.map((post, index) => {
-              return(
-                this.state.visible ?
-                  <Skeleton count={3}/>:
-                  <PostCard key={index} post={post}/>
-              )
-            })}
+            <About />
+            <Articles posts = { posts }/>
+            <Projects />
           </Layout>
         }}
         </Mutation>

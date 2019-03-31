@@ -1,0 +1,22 @@
+.c-comments-section {
+  padding: 1rem 14rem;
+
+  @include response(tab-port) {
+    padding: 0.5rem 4rem;
+  }
+
+  @include response(phone) {
+    padding: 0.5rem 3.5rem;
+  }
+
+  &__cta {
+    color: var(--dark-green);
+    font-size: 1.2rem;
+  }
+
+  &__cta-link {
+    font-size: 1.5rem;
+    color: var(--dark-green);
+    text-decoration: underline;
+  }
+}

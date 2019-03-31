@@ -30,13 +30,19 @@ ShallowWrapper {
           value={null}
         />,
         <input
+          className="c-comments-form__text-field"
           name="body"
           placeholder="Enter comment here"
         />,
-        <button>
-          Submit
+        <button
+          className="c-comments-form__submit-button"
+        >
+          <i
+            className="icon-basic-mouse"
+          />
         </button>,
       ],
+      "className": "c-comments-form",
       "onSubmit": [Function],
     },
     "ref": null,
@@ -72,6 +78,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "className": "c-comments-form__text-field",
           "name": "body",
           "placeholder": "Enter comment here",
         },
@@ -84,10 +91,23 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Submit",
+          "children": <i
+            className="icon-basic-mouse"
+          />,
+          "className": "c-comments-form__submit-button",
         },
         "ref": null,
-        "rendered": "Submit",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "icon-basic-mouse",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
         "type": "button",
       },
     ],
@@ -111,13 +131,19 @@ ShallowWrapper {
             value={null}
           />,
           <input
+            className="c-comments-form__text-field"
             name="body"
             placeholder="Enter comment here"
           />,
-          <button>
-            Submit
+          <button
+            className="c-comments-form__submit-button"
+          >
+            <i
+              className="icon-basic-mouse"
+            />
           </button>,
         ],
+        "className": "c-comments-form",
         "onSubmit": [Function],
       },
       "ref": null,
@@ -153,6 +179,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "className": "c-comments-form__text-field",
             "name": "body",
             "placeholder": "Enter comment here",
           },
@@ -165,10 +192,23 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Submit",
+            "children": <i
+              className="icon-basic-mouse"
+            />,
+            "className": "c-comments-form__submit-button",
           },
           "ref": null,
-          "rendered": "Submit",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "icon-basic-mouse",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
           "type": "button",
         },
       ],
@@ -196,5 +236,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

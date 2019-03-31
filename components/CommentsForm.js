@@ -26,11 +26,11 @@ class CommentsForm extends Component {
   render () {
     const { mutation } = this.props
     return (
-      <form onSubmit={(e) => this.submitComment(e, mutation)}>
+      <form className='c-comments-form' onSubmit={(e) => this.submitComment(e, mutation)}>
         <input type="hidden" name="name" value={localStorage.getItem('user_name')}  />
         <input type= "hidden" name="picture" value={localStorage.getItem('user_picture')} />
-        <input placeholder='Enter comment here' name="body" />
-        <button>Submit</button>
+        <input className='c-comments-form__text-field' placeholder='Enter comment here' name="body" />
+        <button className='c-comments-form__submit-button'><i className="icon-basic-mouse"></i></button>
       </form>
     )
   }

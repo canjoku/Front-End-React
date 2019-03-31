@@ -24,9 +24,9 @@ class CommentsSection extends Component {
     const { comments, mutation, slug } = this.props
     if (this.auth.isAuthenticated()){
       return(
-        <div>
+        <div className='c-comments-section'>
+        <a className='c-comments-section__cta-link' onClick={this.logout}>Logout</a>
           <CommentsForm mutation={mutation} slug={slug} />
-          <a onClick={this.logout}>Logout</a>
           {comments.map((comment, index) => {
             return(
               <CommentCard key={index} comment={comment} />
@@ -36,9 +36,9 @@ class CommentsSection extends Component {
       )
     } else {
       return(
-        <div>
-          <p>If you would like to leave a comment, then please login</p>
-          <a onClick={this.login}>Login</a>
+        <div className='c-comments-section'>
+          <p className='c-comments-section__cta'>If you would like to leave a comment, then please login</p>
+          <a href='#' className='c-comments-section__cta-link' onClick={this.login}>Login</a>
           {comments.map((comment, index) => {
             return(
               <CommentCard key={index} comment={comment} />

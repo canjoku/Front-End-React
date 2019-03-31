@@ -9,7 +9,6 @@ class CommentCard extends Component {
         <p>{comment.body}</p>
         <p>{comment.name}</p>
         <img src={comment.picture}/>
-        <p>{comment.createdAt}</p>
       </div>
     )
   }

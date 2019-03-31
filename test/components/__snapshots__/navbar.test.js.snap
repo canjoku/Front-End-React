@@ -19,132 +19,470 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <Link
-          href="/index"
-        >
-          <a
-            className="c-links__item c-links__item--current"
-          >
-            Blog Home
-          </a>
-        </Link>,
-        <Link
-          href="/projects"
-        >
-          <a
-            className="c-links__item"
-          >
-            Projects
-          </a>
-        </Link>,
-        <Link
-          href="/about"
-        >
-          <a
-            className="c-links__item"
-          >
-            About
-          </a>
-        </Link>,
-        <SubscriptionForm
-          mutation={undefined}
+        <input
+          className="c-navbar__checkbox"
+          id="nav-toggle"
+          type="checkbox"
         />,
+        <label
+          className="c-navbar__button"
+          for="nav-toggle"
+        >
+          <span
+            className="c-navbar__icon"
+          />
+        </label>,
+        <div
+          className="c-navbar__background"
+        />,
+        <nav
+          className="c-navbar__nav"
+        >
+          <ul
+            className="c-navbar__list"
+          >
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/index"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/about"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  About
+                  <a />
+                </a>
+              </Link>
+            </li>
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/projects"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  Projects
+                </a>
+              </Link>
+            </li>
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/articles"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  Articles
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </nav>,
       ],
-      "className": "c-links",
+      "className": "c-navbar",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "children": <a
-            className="c-links__item c-links__item--current"
-          >
-            Blog Home
-          </a>,
-          "href": "/index",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Blog Home",
-            "className": "c-links__item c-links__item--current",
-          },
-          "ref": null,
-          "rendered": "Blog Home",
-          "type": "a",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <a
-            className="c-links__item"
-          >
-            Projects
-          </a>,
-          "href": "/projects",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Projects",
-            "className": "c-links__item",
-          },
-          "ref": null,
-          "rendered": "Projects",
-          "type": "a",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": <a
-            className="c-links__item"
-          >
-            About
-          </a>,
-          "href": "/about",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "About",
-            "className": "c-links__item",
-          },
-          "ref": null,
-          "rendered": "About",
-          "type": "a",
-        },
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "mutation": undefined,
+          "className": "c-navbar__checkbox",
+          "id": "nav-toggle",
+          "type": "checkbox",
         },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span
+            className="c-navbar__icon"
+          />,
+          "className": "c-navbar__button",
+          "for": "nav-toggle",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "c-navbar__icon",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "c-navbar__background",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ul
+            className="c-navbar__list"
+          >
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/index"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/about"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  About
+                  <a />
+                </a>
+              </Link>
+            </li>
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/projects"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  Projects
+                </a>
+              </Link>
+            </li>
+            <li
+              className="c-navbar__item"
+            >
+              <Link
+                href="/articles"
+              >
+                <a
+                  className="c-navbar__link"
+                >
+                  Articles
+                </a>
+              </Link>
+            </li>
+          </ul>,
+          "className": "c-navbar__nav",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/index"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Home
+                  </a>
+                </Link>
+              </li>,
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    About
+                    <a />
+                  </a>
+                </Link>
+              </li>,
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/projects"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Projects
+                  </a>
+                </Link>
+              </li>,
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/articles"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Articles
+                  </a>
+                </Link>
+              </li>,
+            ],
+            "className": "c-navbar__list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  href="/index"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Home
+                  </a>
+                </Link>,
+                "className": "c-navbar__item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    className="c-navbar__link"
+                  >
+                    Home
+                  </a>,
+                  "href": "/index",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Home",
+                    "className": "c-navbar__link",
+                  },
+                  "ref": null,
+                  "rendered": "Home",
+                  "type": "a",
+                },
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    About
+                    <a />
+                  </a>
+                </Link>,
+                "className": "c-navbar__item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    className="c-navbar__link"
+                  >
+                    About
+                    <a />
+                  </a>,
+                  "href": "/about",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "About",
+                      <a />,
+                    ],
+                    "className": "c-navbar__link",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "About",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "a",
+                    },
+                  ],
+                  "type": "a",
+                },
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  href="/projects"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Projects
+                  </a>
+                </Link>,
+                "className": "c-navbar__item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    className="c-navbar__link"
+                  >
+                    Projects
+                  </a>,
+                  "href": "/projects",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Projects",
+                    "className": "c-navbar__link",
+                  },
+                  "ref": null,
+                  "rendered": "Projects",
+                  "type": "a",
+                },
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  href="/articles"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Articles
+                  </a>
+                </Link>,
+                "className": "c-navbar__item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    className="c-navbar__link"
+                  >
+                    Articles
+                  </a>,
+                  "href": "/articles",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Articles",
+                    "className": "c-navbar__link",
+                  },
+                  "ref": null,
+                  "rendered": "Articles",
+                  "type": "a",
+                },
+                "type": [Function],
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        "type": "nav",
       },
     ],
     "type": "div",
@@ -156,132 +494,470 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Link
-            href="/index"
-          >
-            <a
-              className="c-links__item c-links__item--current"
-            >
-              Blog Home
-            </a>
-          </Link>,
-          <Link
-            href="/projects"
-          >
-            <a
-              className="c-links__item"
-            >
-              Projects
-            </a>
-          </Link>,
-          <Link
-            href="/about"
-          >
-            <a
-              className="c-links__item"
-            >
-              About
-            </a>
-          </Link>,
-          <SubscriptionForm
-            mutation={undefined}
+          <input
+            className="c-navbar__checkbox"
+            id="nav-toggle"
+            type="checkbox"
           />,
+          <label
+            className="c-navbar__button"
+            for="nav-toggle"
+          >
+            <span
+              className="c-navbar__icon"
+            />
+          </label>,
+          <div
+            className="c-navbar__background"
+          />,
+          <nav
+            className="c-navbar__nav"
+          >
+            <ul
+              className="c-navbar__list"
+            >
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/index"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    About
+                    <a />
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/projects"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Projects
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/articles"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Articles
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </nav>,
         ],
-        "className": "c-links",
+        "className": "c-navbar",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "children": <a
-              className="c-links__item c-links__item--current"
-            >
-              Blog Home
-            </a>,
-            "href": "/index",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Blog Home",
-              "className": "c-links__item c-links__item--current",
-            },
-            "ref": null,
-            "rendered": "Blog Home",
-            "type": "a",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <a
-              className="c-links__item"
-            >
-              Projects
-            </a>,
-            "href": "/projects",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Projects",
-              "className": "c-links__item",
-            },
-            "ref": null,
-            "rendered": "Projects",
-            "type": "a",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <a
-              className="c-links__item"
-            >
-              About
-            </a>,
-            "href": "/about",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "About",
-              "className": "c-links__item",
-            },
-            "ref": null,
-            "rendered": "About",
-            "type": "a",
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "mutation": undefined,
+            "className": "c-navbar__checkbox",
+            "id": "nav-toggle",
+            "type": "checkbox",
           },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="c-navbar__icon"
+            />,
+            "className": "c-navbar__button",
+            "for": "nav-toggle",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "c-navbar__icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "c-navbar__background",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="c-navbar__list"
+            >
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/index"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    About
+                    <a />
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/projects"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Projects
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-navbar__item"
+              >
+                <Link
+                  href="/articles"
+                >
+                  <a
+                    className="c-navbar__link"
+                  >
+                    Articles
+                  </a>
+                </Link>
+              </li>
+            </ul>,
+            "className": "c-navbar__nav",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="c-navbar__item"
+                >
+                  <Link
+                    href="/index"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </li>,
+                <li
+                  className="c-navbar__item"
+                >
+                  <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      About
+                      <a />
+                    </a>
+                  </Link>
+                </li>,
+                <li
+                  className="c-navbar__item"
+                >
+                  <Link
+                    href="/projects"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      Projects
+                    </a>
+                  </Link>
+                </li>,
+                <li
+                  className="c-navbar__item"
+                >
+                  <Link
+                    href="/articles"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      Articles
+                    </a>
+                  </Link>
+                </li>,
+              ],
+              "className": "c-navbar__list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    href="/index"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      Home
+                    </a>
+                  </Link>,
+                  "className": "c-navbar__item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <a
+                      className="c-navbar__link"
+                    >
+                      Home
+                    </a>,
+                    "href": "/index",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Home",
+                      "className": "c-navbar__link",
+                    },
+                    "ref": null,
+                    "rendered": "Home",
+                    "type": "a",
+                  },
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      About
+                      <a />
+                    </a>
+                  </Link>,
+                  "className": "c-navbar__item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <a
+                      className="c-navbar__link"
+                    >
+                      About
+                      <a />
+                    </a>,
+                    "href": "/about",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "About",
+                        <a />,
+                      ],
+                      "className": "c-navbar__link",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "About",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": "a",
+                      },
+                    ],
+                    "type": "a",
+                  },
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    href="/projects"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      Projects
+                    </a>
+                  </Link>,
+                  "className": "c-navbar__item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <a
+                      className="c-navbar__link"
+                    >
+                      Projects
+                    </a>,
+                    "href": "/projects",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Projects",
+                      "className": "c-navbar__link",
+                    },
+                    "ref": null,
+                    "rendered": "Projects",
+                    "type": "a",
+                  },
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    href="/articles"
+                  >
+                    <a
+                      className="c-navbar__link"
+                    >
+                      Articles
+                    </a>
+                  </Link>,
+                  "className": "c-navbar__item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <a
+                      className="c-navbar__link"
+                    >
+                      Articles
+                    </a>,
+                    "href": "/articles",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Articles",
+                      "className": "c-navbar__link",
+                    },
+                    "ref": null,
+                    "rendered": "Articles",
+                    "type": "a",
+                  },
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          "type": "nav",
         },
       ],
       "type": "div",
@@ -308,5 +984,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

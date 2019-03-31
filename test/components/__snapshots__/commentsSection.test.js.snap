@@ -31,10 +31,14 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <p>
+        <p
+          className="c-comments-section__cta"
+        >
           If you would like to leave a comment, then please login
         </p>,
         <a
+          className="c-comments-section__cta-link"
+          href="#"
           onClick={[Function]}
         >
           Login
@@ -56,6 +60,7 @@ ShallowWrapper {
           />,
         ],
       ],
+      "className": "c-comments-section",
     },
     "ref": null,
     "rendered": Array [
@@ -65,6 +70,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "If you would like to leave a comment, then please login",
+          "className": "c-comments-section__cta",
         },
         "ref": null,
         "rendered": "If you would like to leave a comment, then please login",
@@ -76,6 +82,8 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Login",
+          "className": "c-comments-section__cta-link",
+          "href": "#",
           "onClick": [Function],
         },
         "ref": null,
@@ -118,10 +126,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p>
+          <p
+            className="c-comments-section__cta"
+          >
             If you would like to leave a comment, then please login
           </p>,
           <a
+            className="c-comments-section__cta-link"
+            href="#"
             onClick={[Function]}
           >
             Login
@@ -143,6 +155,7 @@ ShallowWrapper {
             />,
           ],
         ],
+        "className": "c-comments-section",
       },
       "ref": null,
       "rendered": Array [
@@ -152,6 +165,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "If you would like to leave a comment, then please login",
+            "className": "c-comments-section__cta",
           },
           "ref": null,
           "rendered": "If you would like to leave a comment, then please login",
@@ -163,6 +177,8 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Login",
+            "className": "c-comments-section__cta-link",
+            "href": "#",
             "onClick": [Function],
           },
           "ref": null,
@@ -220,5 +236,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

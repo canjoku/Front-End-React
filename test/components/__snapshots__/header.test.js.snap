@@ -18,79 +18,220 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="c-header__content"
-      >
-        <h1
-          className="c-header__title"
-        >
-          TBlog Stories
-        </h1>
-        <div
-          className="c-header_subtitle"
+      "children": Array [
+        <Navbar />,
+        <header
+          className="c-header"
         >
           <div
-            className="c-header__description"
+            className="c-header__content"
           >
-            A place to read about web development code stories. Courtesy of 
-            <a
-              href="#"
+            <h1
+              className="c-header__primary-heading"
             >
-              Tony Njoku.
-            </a>
-            <Navbar
+              <span
+                className="c-header__primary-heading--main"
+              >
+                Chidi Njoku
+              </span>
+              <span
+                className="c-header__primary-heading--sub"
+              >
+                Full Stack Developer
+              </span>
+            </h1>
+            <SubscriptionForm
+              className="c-header__subscription-form"
               mutation={undefined}
             />
           </div>
-        </div>
-      </div>,
-      "className": "c-header",
+        </header>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="c-header__content"
+          >
+            <h1
+              className="c-header__primary-heading"
+            >
+              <span
+                className="c-header__primary-heading--main"
+              >
+                Chidi Njoku
+              </span>
+              <span
+                className="c-header__primary-heading--sub"
+              >
+                Full Stack Developer
+              </span>
+            </h1>
+            <SubscriptionForm
+              className="c-header__subscription-form"
+              mutation={undefined}
+            />
+          </div>,
+          "className": "c-header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="c-header__primary-heading"
+              >
+                <span
+                  className="c-header__primary-heading--main"
+                >
+                  Chidi Njoku
+                </span>
+                <span
+                  className="c-header__primary-heading--sub"
+                >
+                  Full Stack Developer
+                </span>
+              </h1>,
+              <SubscriptionForm
+                className="c-header__subscription-form"
+                mutation={undefined}
+              />,
+            ],
+            "className": "c-header__content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="c-header__primary-heading--main"
+                  >
+                    Chidi Njoku
+                  </span>,
+                  <span
+                    className="c-header__primary-heading--sub"
+                  >
+                    Full Stack Developer
+                  </span>,
+                ],
+                "className": "c-header__primary-heading",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Chidi Njoku",
+                    "className": "c-header__primary-heading--main",
+                  },
+                  "ref": null,
+                  "rendered": "Chidi Njoku",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Full Stack Developer",
+                    "className": "c-header__primary-heading--sub",
+                  },
+                  "ref": null,
+                  "rendered": "Full Stack Developer",
+                  "type": "span",
+                },
+              ],
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "c-header__subscription-form",
+                "mutation": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": "header",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1
-            className="c-header__title"
-          >
-            TBlog Stories
-          </h1>,
-          <div
-            className="c-header_subtitle"
+          <Navbar />,
+          <header
+            className="c-header"
           >
             <div
-              className="c-header__description"
+              className="c-header__content"
             >
-              A place to read about web development code stories. Courtesy of 
-              <a
-                href="#"
+              <h1
+                className="c-header__primary-heading"
               >
-                Tony Njoku.
-              </a>
-              <Navbar
+                <span
+                  className="c-header__primary-heading--main"
+                >
+                  Chidi Njoku
+                </span>
+                <span
+                  className="c-header__primary-heading--sub"
+                >
+                  Full Stack Developer
+                </span>
+              </h1>
+              <SubscriptionForm
+                className="c-header__subscription-form"
                 mutation={undefined}
               />
             </div>
-          </div>,
+          </header>,
         ],
-        "className": "c-header__content",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "TBlog Stories",
-            "className": "c-header__title",
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
-          "rendered": "TBlog Stories",
-          "type": "h1",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -98,19 +239,28 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="c-header__description"
+              className="c-header__content"
             >
-              A place to read about web development code stories. Courtesy of 
-              <a
-                href="#"
+              <h1
+                className="c-header__primary-heading"
               >
-                Tony Njoku.
-              </a>
-              <Navbar
+                <span
+                  className="c-header__primary-heading--main"
+                >
+                  Chidi Njoku
+                </span>
+                <span
+                  className="c-header__primary-heading--sub"
+                >
+                  Full Stack Developer
+                </span>
+              </h1>
+              <SubscriptionForm
+                className="c-header__subscription-form"
                 mutation={undefined}
               />
             </div>,
-            "className": "c-header_subtitle",
+            "className": "c-header",
           },
           "ref": null,
           "rendered": Object {
@@ -119,38 +269,83 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                "A place to read about web development code stories. Courtesy of ",
-                <a
-                  href="#"
+                <h1
+                  className="c-header__primary-heading"
                 >
-                  Tony Njoku.
-                </a>,
-                <Navbar
+                  <span
+                    className="c-header__primary-heading--main"
+                  >
+                    Chidi Njoku
+                  </span>
+                  <span
+                    className="c-header__primary-heading--sub"
+                  >
+                    Full Stack Developer
+                  </span>
+                </h1>,
+                <SubscriptionForm
+                  className="c-header__subscription-form"
                   mutation={undefined}
                 />,
               ],
-              "className": "c-header__description",
+              "className": "c-header__content",
             },
             "ref": null,
             "rendered": Array [
-              "A place to read about web development code stories. Courtesy of ",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Tony Njoku.",
-                  "href": "#",
+                  "children": Array [
+                    <span
+                      className="c-header__primary-heading--main"
+                    >
+                      Chidi Njoku
+                    </span>,
+                    <span
+                      className="c-header__primary-heading--sub"
+                    >
+                      Full Stack Developer
+                    </span>,
+                  ],
+                  "className": "c-header__primary-heading",
                 },
                 "ref": null,
-                "rendered": "Tony Njoku.",
-                "type": "a",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Chidi Njoku",
+                      "className": "c-header__primary-heading--main",
+                    },
+                    "ref": null,
+                    "rendered": "Chidi Njoku",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Full Stack Developer",
+                      "className": "c-header__primary-heading--sub",
+                    },
+                    "ref": null,
+                    "rendered": "Full Stack Developer",
+                    "type": "span",
+                  },
+                ],
+                "type": "h1",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
+                  "className": "c-header__subscription-form",
                   "mutation": undefined,
                 },
                 "ref": null,
@@ -160,167 +355,10 @@ ShallowWrapper {
             ],
             "type": "div",
           },
-          "type": "div",
+          "type": "header",
         },
       ],
       "type": "div",
-    },
-    "type": "header",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
-          className="c-header__content"
-        >
-          <h1
-            className="c-header__title"
-          >
-            TBlog Stories
-          </h1>
-          <div
-            className="c-header_subtitle"
-          >
-            <div
-              className="c-header__description"
-            >
-              A place to read about web development code stories. Courtesy of 
-              <a
-                href="#"
-              >
-                Tony Njoku.
-              </a>
-              <Navbar
-                mutation={undefined}
-              />
-            </div>
-          </div>
-        </div>,
-        "className": "c-header",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h1
-              className="c-header__title"
-            >
-              TBlog Stories
-            </h1>,
-            <div
-              className="c-header_subtitle"
-            >
-              <div
-                className="c-header__description"
-              >
-                A place to read about web development code stories. Courtesy of 
-                <a
-                  href="#"
-                >
-                  Tony Njoku.
-                </a>
-                <Navbar
-                  mutation={undefined}
-                />
-              </div>
-            </div>,
-          ],
-          "className": "c-header__content",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "TBlog Stories",
-              "className": "c-header__title",
-            },
-            "ref": null,
-            "rendered": "TBlog Stories",
-            "type": "h1",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
-                className="c-header__description"
-              >
-                A place to read about web development code stories. Courtesy of 
-                <a
-                  href="#"
-                >
-                  Tony Njoku.
-                </a>
-                <Navbar
-                  mutation={undefined}
-                />
-              </div>,
-              "className": "c-header_subtitle",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  "A place to read about web development code stories. Courtesy of ",
-                  <a
-                    href="#"
-                  >
-                    Tony Njoku.
-                  </a>,
-                  <Navbar
-                    mutation={undefined}
-                  />,
-                ],
-                "className": "c-header__description",
-              },
-              "ref": null,
-              "rendered": Array [
-                "A place to read about web development code stories. Courtesy of ",
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Tony Njoku.",
-                    "href": "#",
-                  },
-                  "ref": null,
-                  "rendered": "Tony Njoku.",
-                  "type": "a",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "mutation": undefined,
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-              ],
-              "type": "div",
-            },
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      "type": "header",
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -344,5 +382,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;

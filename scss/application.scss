@@ -1,20 +1,36 @@
+@import "./mixins/m-mixins";
 @import './base/base.scss';
-@import './base/reset.scss';
 @import './base/variables.scss';
 
-@import "./layout/l-wrapper";
-@import "./layout/l-posts";
 
+@import "./utility/u-bottom-margin-big";
+@import "./utility/u-bottom-margin-medium";
+@import "./utility/u-bottom-margin-small";
+@import "./utility/u-center-text";
 
-@import "./components/c-header";
-@import "./components/c-links";
-@import "./components/c-footer";
-@import "./components/c-post";
-@import "./components/c-show-post";
-@import "./components/c-comments-form";
-@import "./components/c-comment";
-@import "./components/c-subscriber";
+@import "./grid/g-grid";
 
-@import "./components/s-skeleton";
+@import "./pages/p-articles-page";
 
 @import "./fonts/fonts";
+@import "./fonts/icon-fonts.scss";
+
+@import "./keyframes/k-moveInLeft";
+@import "./keyframes/k-moveInRight";
+
+
+@import "./components/s-skeleton";
+@import "./components/c-header";
+@import "./components/c-subscription";
+@import "./components/c-about";
+@import "./components/c-post-card";
+@import "./components/c-articles";
+@import "./components/c-projects-section";
+@import "./components/c-footer";
+@import "./components/c-navbar";
+@import "./components/c-post-section";
+@import "./components/c-comments-section";
+@import "./components/c-comments-form";
+@import "./components//c-image-composition";
+@import "./components//c-projects-card";
+

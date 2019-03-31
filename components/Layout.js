@@ -1,19 +1,22 @@
 import { Component } from 'react'
 import Head from 'next/head'
 
-import Footer from '../components/Footer'
-import Header from '../components/Header'
 
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import '../scss/application.scss'
+
+
 
 class Layout extends Component {
   render () {
     const { mutation } = this.props
     return (
-      <div className='l-wrapper'>
+      <div>
         <Head>
-          <title> TBlog </title>
+          <title>Chidi Njoku</title>
           <link rel='stylesheet' href='/_next/static/style.css' />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <Header mutation={mutation}/>
           { this.props.children }

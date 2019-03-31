@@ -68,8 +68,7 @@
     "image-webpack-loader": "^4.6.0",
     "jest": "^22.4.0",
     "jest-enzyme": "^4.2.0",
-    "markdown-to-jsx": "^6.9.0",
-    "react-markdown": "^4.0.6"
+    "markdown-to-jsx": "^6.9.0"
   },
   "moduleFileExtensions": [
     "js",

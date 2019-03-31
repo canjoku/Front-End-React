@@ -18,11 +18,658 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "2019 Tony Njoku",
+      "children": <div
+        className="g-grid__row"
+      >
+        <div
+          className="g-grid__col-1-of-2"
+        >
+          <div
+            className="c-footer__navigation"
+          >
+            <ul
+              className="c-footer__list"
+            >
+              <li
+                className="c-footer__item"
+              >
+                <Link
+                  href="/index"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    Home
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-footer__item"
+              >
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    About
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-footer__item"
+              >
+                <Link
+                  href="/articles"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    Articles
+                  </a>
+                </Link>
+              </li>
+              <li
+                className="c-footer__item"
+              >
+                <Link
+                  href="/projects"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    Projects
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="g-grid__col-1-of-2"
+        >
+          <p
+            className="c-footer__copyright"
+          >
+            Built by 
+            <Link
+              href="/about"
+            >
+              <a
+                className="c-footer__link"
+              >
+                Chidi Njoku
+              </a>
+            </Link>
+            . A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!
+          </p>
+        </div>
+      </div>,
       "className": "c-footer",
     },
     "ref": null,
-    "rendered": "2019 Tony Njoku",
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="g-grid__col-1-of-2"
+          >
+            <div
+              className="c-footer__navigation"
+            >
+              <ul
+                className="c-footer__list"
+              >
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/index"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      About
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/articles"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Articles
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/projects"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Projects
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>,
+          <div
+            className="g-grid__col-1-of-2"
+          >
+            <p
+              className="c-footer__copyright"
+            >
+              Built by 
+              <Link
+                href="/about"
+              >
+                <a
+                  className="c-footer__link"
+                >
+                  Chidi Njoku
+                </a>
+              </Link>
+              . A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!
+            </p>
+          </div>,
+        ],
+        "className": "g-grid__row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="c-footer__navigation"
+            >
+              <ul
+                className="c-footer__list"
+              >
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/index"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      About
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/articles"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Articles
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/projects"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Projects
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>,
+            "className": "g-grid__col-1-of-2",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul
+                className="c-footer__list"
+              >
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/index"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      About
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/articles"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Articles
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/projects"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Projects
+                    </a>
+                  </Link>
+                </li>
+              </ul>,
+              "className": "c-footer__navigation",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/index"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Home
+                      </a>
+                    </Link>
+                  </li>,
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/about"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        About
+                      </a>
+                    </Link>
+                  </li>,
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/articles"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Articles
+                      </a>
+                    </Link>
+                  </li>,
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/projects"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Projects
+                      </a>
+                    </Link>
+                  </li>,
+                ],
+                "className": "c-footer__list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      href="/index"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Home
+                      </a>
+                    </Link>,
+                    "className": "c-footer__item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <a
+                        className="c-footer__link"
+                      >
+                        Home
+                      </a>,
+                      "href": "/index",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Home",
+                        "className": "c-footer__link",
+                      },
+                      "ref": null,
+                      "rendered": "Home",
+                      "type": "a",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      href="/about"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        About
+                      </a>
+                    </Link>,
+                    "className": "c-footer__item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <a
+                        className="c-footer__link"
+                      >
+                        About
+                      </a>,
+                      "href": "/about",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "About",
+                        "className": "c-footer__link",
+                      },
+                      "ref": null,
+                      "rendered": "About",
+                      "type": "a",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      href="/articles"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Articles
+                      </a>
+                    </Link>,
+                    "className": "c-footer__item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <a
+                        className="c-footer__link"
+                      >
+                        Articles
+                      </a>,
+                      "href": "/articles",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Articles",
+                        "className": "c-footer__link",
+                      },
+                      "ref": null,
+                      "rendered": "Articles",
+                      "type": "a",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      href="/projects"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Projects
+                      </a>
+                    </Link>,
+                    "className": "c-footer__item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <a
+                        className="c-footer__link"
+                      >
+                        Projects
+                      </a>,
+                      "href": "/projects",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Projects",
+                        "className": "c-footer__link",
+                      },
+                      "ref": null,
+                      "rendered": "Projects",
+                      "type": "a",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="c-footer__copyright"
+            >
+              Built by 
+              <Link
+                href="/about"
+              >
+                <a
+                  className="c-footer__link"
+                >
+                  Chidi Njoku
+                </a>
+              </Link>
+              . A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!
+            </p>,
+            "className": "g-grid__col-1-of-2",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Built by ",
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    Chidi Njoku
+                  </a>
+                </Link>,
+                ". A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!",
+              ],
+              "className": "c-footer__copyright",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Built by ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    className="c-footer__link"
+                  >
+                    Chidi Njoku
+                  </a>,
+                  "href": "/about",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Chidi Njoku",
+                    "className": "c-footer__link",
+                  },
+                  "ref": null,
+                  "rendered": "Chidi Njoku",
+                  "type": "a",
+                },
+                "type": [Function],
+              },
+              ". A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!",
+            ],
+            "type": "p",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
     "type": "footer",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -31,11 +678,658 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "2019 Tony Njoku",
+        "children": <div
+          className="g-grid__row"
+        >
+          <div
+            className="g-grid__col-1-of-2"
+          >
+            <div
+              className="c-footer__navigation"
+            >
+              <ul
+                className="c-footer__list"
+              >
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/index"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      About
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/articles"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Articles
+                    </a>
+                  </Link>
+                </li>
+                <li
+                  className="c-footer__item"
+                >
+                  <Link
+                    href="/projects"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Projects
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="g-grid__col-1-of-2"
+          >
+            <p
+              className="c-footer__copyright"
+            >
+              Built by 
+              <Link
+                href="/about"
+              >
+                <a
+                  className="c-footer__link"
+                >
+                  Chidi Njoku
+                </a>
+              </Link>
+              . A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!
+            </p>
+          </div>
+        </div>,
         "className": "c-footer",
       },
       "ref": null,
-      "rendered": "2019 Tony Njoku",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="g-grid__col-1-of-2"
+            >
+              <div
+                className="c-footer__navigation"
+              >
+                <ul
+                  className="c-footer__list"
+                >
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/index"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Home
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/about"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        About
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/articles"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Articles
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/projects"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Projects
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>,
+            <div
+              className="g-grid__col-1-of-2"
+            >
+              <p
+                className="c-footer__copyright"
+              >
+                Built by 
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    Chidi Njoku
+                  </a>
+                </Link>
+                . A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!
+              </p>
+            </div>,
+          ],
+          "className": "g-grid__row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="c-footer__navigation"
+              >
+                <ul
+                  className="c-footer__list"
+                >
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/index"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Home
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/about"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        About
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/articles"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Articles
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/projects"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Projects
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>,
+              "className": "g-grid__col-1-of-2",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul
+                  className="c-footer__list"
+                >
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/index"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Home
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/about"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        About
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/articles"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Articles
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    className="c-footer__item"
+                  >
+                    <Link
+                      href="/projects"
+                    >
+                      <a
+                        className="c-footer__link"
+                      >
+                        Projects
+                      </a>
+                    </Link>
+                  </li>
+                </ul>,
+                "className": "c-footer__navigation",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="c-footer__item"
+                    >
+                      <Link
+                        href="/index"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          Home
+                        </a>
+                      </Link>
+                    </li>,
+                    <li
+                      className="c-footer__item"
+                    >
+                      <Link
+                        href="/about"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          About
+                        </a>
+                      </Link>
+                    </li>,
+                    <li
+                      className="c-footer__item"
+                    >
+                      <Link
+                        href="/articles"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          Articles
+                        </a>
+                      </Link>
+                    </li>,
+                    <li
+                      className="c-footer__item"
+                    >
+                      <Link
+                        href="/projects"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          Projects
+                        </a>
+                      </Link>
+                    </li>,
+                  ],
+                  "className": "c-footer__list",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Link
+                        href="/index"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          Home
+                        </a>
+                      </Link>,
+                      "className": "c-footer__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <a
+                          className="c-footer__link"
+                        >
+                          Home
+                        </a>,
+                        "href": "/index",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Home",
+                          "className": "c-footer__link",
+                        },
+                        "ref": null,
+                        "rendered": "Home",
+                        "type": "a",
+                      },
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Link
+                        href="/about"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          About
+                        </a>
+                      </Link>,
+                      "className": "c-footer__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <a
+                          className="c-footer__link"
+                        >
+                          About
+                        </a>,
+                        "href": "/about",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "About",
+                          "className": "c-footer__link",
+                        },
+                        "ref": null,
+                        "rendered": "About",
+                        "type": "a",
+                      },
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Link
+                        href="/articles"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          Articles
+                        </a>
+                      </Link>,
+                      "className": "c-footer__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <a
+                          className="c-footer__link"
+                        >
+                          Articles
+                        </a>,
+                        "href": "/articles",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Articles",
+                          "className": "c-footer__link",
+                        },
+                        "ref": null,
+                        "rendered": "Articles",
+                        "type": "a",
+                      },
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Link
+                        href="/projects"
+                      >
+                        <a
+                          className="c-footer__link"
+                        >
+                          Projects
+                        </a>
+                      </Link>,
+                      "className": "c-footer__item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <a
+                          className="c-footer__link"
+                        >
+                          Projects
+                        </a>,
+                        "href": "/projects",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Projects",
+                          "className": "c-footer__link",
+                        },
+                        "ref": null,
+                        "rendered": "Projects",
+                        "type": "a",
+                      },
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p
+                className="c-footer__copyright"
+              >
+                Built by 
+                <Link
+                  href="/about"
+                >
+                  <a
+                    className="c-footer__link"
+                  >
+                    Chidi Njoku
+                  </a>
+                </Link>
+                . A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!
+              </p>,
+              "className": "g-grid__col-1-of-2",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Built by ",
+                  <Link
+                    href="/about"
+                  >
+                    <a
+                      className="c-footer__link"
+                    >
+                      Chidi Njoku
+                    </a>
+                  </Link>,
+                  ". A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!",
+                ],
+                "className": "c-footer__copyright",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Built by ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <a
+                      className="c-footer__link"
+                    >
+                      Chidi Njoku
+                    </a>,
+                    "href": "/about",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Chidi Njoku",
+                      "className": "c-footer__link",
+                    },
+                    "ref": null,
+                    "rendered": "Chidi Njoku",
+                    "type": "a",
+                  },
+                  "type": [Function],
+                },
+                ". A Portfolio website showcasing web development projects and code related articles. Copyright © by Chidi Njoku. Credit to the original author, Chidi Njoku, is of course highly appreciated!",
+              ],
+              "type": "p",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
       "type": "footer",
     },
   ],
@@ -60,5 +1354,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
