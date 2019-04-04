@@ -76,28 +76,28 @@ ShallowWrapper {
                   </ul>
                 </div>
               </div>
-              <div
-                className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+              <a
+                className="c-projects-card__cta-link"
+                href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                target="blank"
               >
                 <div
-                  className="c-projects-card__cta"
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                 >
-                  <p
-                    className="c-projects-card__cta-text"
+                  <div
+                    className="c-projects-card__cta"
                   >
-                    Ruby Project
-                  </p>
-                  <a
-                    className="c-projects-card__cta-link"
-                    href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                    target="blank"
-                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Ruby Project
+                    </p>
                     <i
                       className="icon-basic-server2"
                     />
-                  </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div
@@ -145,28 +145,28 @@ ShallowWrapper {
                   </ul>
                 </div>
               </div>
-              <div
-                className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+              <a
+                className="c-projects-card__cta-link"
+                href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                target="blank"
               >
                 <div
-                  className="c-projects-card__cta"
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                 >
-                  <p
-                    className="c-projects-card__cta-text"
+                  <div
+                    className="c-projects-card__cta"
                   >
-                    React Project
-                  </p>
-                  <a
-                    className="c-projects-card__cta-link"
-                    href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                    target="blank"
-                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      React Project
+                    </p>
                     <i
                       className="icon-basic-link"
                     />
-                  </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div
@@ -211,27 +211,32 @@ ShallowWrapper {
                   </ul>
                 </div>
               </div>
-              <div
-                className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+              <a
+                className="c-projects-card__cta-link"
+                href="#"
               >
                 <div
-                  className="c-projects-card__cta"
+                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                 >
-                  <p
-                    className="c-projects-card__cta-text"
+                  <div
+                    className="c-projects-card__cta"
                   >
-                    Commercial Experience
-                  </p>
-                  <a
-                    className="c-projects-card__cta-link"
-                    href="#"
-                  >
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Commercial Experience
+                    </p>
                     <i
                       className="icon-basic-webpage-multiple"
                     />
-                  </a>
+                    <p
+                      className="c-projects-card__cta-text"
+                    >
+                      Private repository
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>,
@@ -318,28 +323,28 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                  target="blank"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      Ruby Project
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                      target="blank"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
                       <i
                         className="icon-basic-server2"
                       />
-                    </a>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>,
             <div
@@ -387,28 +392,28 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                  target="blank"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      React Project
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                      target="blank"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
                       <i
                         className="icon-basic-link"
                       />
-                    </a>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>,
             <div
@@ -453,27 +458,32 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="#"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      Commercial Experience
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="#"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
                       <i
                         className="icon-basic-webpage-multiple"
                       />
-                    </a>
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Private repository
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>,
           ],
@@ -528,28 +538,28 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                  target="blank"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      Ruby Project
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                      target="blank"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
                       <i
                         className="icon-basic-server2"
                       />
-                    </a>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>,
               "className": "g-grid__col-1-of-3",
             },
@@ -599,28 +609,28 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>,
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                    target="blank"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Ruby Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>
                         <i
                           className="icon-basic-server2"
                         />
-                      </a>
+                      </div>
                     </div>
-                  </div>,
+                  </a>,
                 ],
                 "className": "c-projects-card",
               },
@@ -830,24 +840,24 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Ruby Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>
                         <i
                           className="icon-basic-server2"
                         />
-                      </a>
+                      </div>
                     </div>,
-                    "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back1",
+                    "className": "c-projects-card__cta-link",
+                    "href": "https://github.com/affinity-digital-ltd/Tonys-blog",
+                    "target": "blank",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -855,52 +865,53 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": Array [
+                      "children": <div
+                        className="c-projects-card__cta"
+                      >
                         <p
                           className="c-projects-card__cta-text"
                         >
                           Ruby Project
-                        </p>,
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                          target="blank"
-                        >
-                          <i
-                            className="icon-basic-server2"
-                          />
-                        </a>,
-                      ],
-                      "className": "c-projects-card__cta",
+                        </p>
+                        <i
+                          className="icon-basic-server2"
+                        />
+                      </div>,
+                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back1",
                     },
                     "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Ruby Project",
-                          "className": "c-projects-card__cta-text",
-                        },
-                        "ref": null,
-                        "rendered": "Ruby Project",
-                        "type": "p",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <i
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Ruby Project
+                          </p>,
+                          <i
                             className="icon-basic-server2"
                           />,
-                          "className": "c-projects-card__cta-link",
-                          "href": "https://github.com/affinity-digital-ltd/Tonys-blog",
-                          "target": "blank",
+                        ],
+                        "className": "c-projects-card__cta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Ruby Project",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "Ruby Project",
+                          "type": "p",
                         },
-                        "ref": null,
-                        "rendered": Object {
+                        Object {
                           "instance": null,
                           "key": undefined,
                           "nodeType": "host",
@@ -911,12 +922,12 @@ ShallowWrapper {
                           "rendered": null,
                           "type": "i",
                         },
-                        "type": "a",
-                      },
-                    ],
+                      ],
+                      "type": "div",
+                    },
                     "type": "div",
                   },
-                  "type": "div",
+                  "type": "a",
                 },
               ],
               "type": "div",
@@ -970,28 +981,28 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                  target="blank"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      React Project
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                      target="blank"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
                       <i
                         className="icon-basic-link"
                       />
-                    </a>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>,
               "className": "g-grid__col-1-of-3",
             },
@@ -1041,28 +1052,28 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>,
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                    target="blank"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        React Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>
                         <i
                           className="icon-basic-link"
                         />
-                      </a>
+                      </div>
                     </div>
-                  </div>,
+                  </a>,
                 ],
                 "className": "c-projects-card",
               },
@@ -1272,24 +1283,24 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        React Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>
                         <i
                           className="icon-basic-link"
                         />
-                      </a>
+                      </div>
                     </div>,
-                    "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back2",
+                    "className": "c-projects-card__cta-link",
+                    "href": "https://github.com/affinity-digital-ltd/TBlog-FrontEnd",
+                    "target": "blank",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -1297,52 +1308,53 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": Array [
+                      "children": <div
+                        className="c-projects-card__cta"
+                      >
                         <p
                           className="c-projects-card__cta-text"
                         >
                           React Project
-                        </p>,
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                          target="blank"
-                        >
-                          <i
-                            className="icon-basic-link"
-                          />
-                        </a>,
-                      ],
-                      "className": "c-projects-card__cta",
+                        </p>
+                        <i
+                          className="icon-basic-link"
+                        />
+                      </div>,
+                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back2",
                     },
                     "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "React Project",
-                          "className": "c-projects-card__cta-text",
-                        },
-                        "ref": null,
-                        "rendered": "React Project",
-                        "type": "p",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <i
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            React Project
+                          </p>,
+                          <i
                             className="icon-basic-link"
                           />,
-                          "className": "c-projects-card__cta-link",
-                          "href": "https://github.com/affinity-digital-ltd/TBlog-FrontEnd",
-                          "target": "blank",
+                        ],
+                        "className": "c-projects-card__cta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "React Project",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "React Project",
+                          "type": "p",
                         },
-                        "ref": null,
-                        "rendered": Object {
+                        Object {
                           "instance": null,
                           "key": undefined,
                           "nodeType": "host",
@@ -1353,12 +1365,12 @@ ShallowWrapper {
                           "rendered": null,
                           "type": "i",
                         },
-                        "type": "a",
-                      },
-                    ],
+                      ],
+                      "type": "div",
+                    },
                     "type": "div",
                   },
-                  "type": "div",
+                  "type": "a",
                 },
               ],
               "type": "div",
@@ -1409,27 +1421,32 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="#"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      Commercial Experience
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="#"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
                       <i
                         className="icon-basic-webpage-multiple"
                       />
-                    </a>
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Private repository
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>,
               "className": "g-grid__col-1-of-3 ",
             },
@@ -1476,27 +1493,32 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>,
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="#"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Commercial Experience
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="#"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>
                         <i
                           className="icon-basic-webpage-multiple"
                         />
-                      </a>
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Private repository
+                        </p>
+                      </div>
                     </div>
-                  </div>,
+                  </a>,
                 ],
                 "className": "c-projects-card",
               },
@@ -1686,23 +1708,28 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Commercial Experience
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="#"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>
                         <i
                           className="icon-basic-webpage-multiple"
                         />
-                      </a>
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Private repository
+                        </p>
+                      </div>
                     </div>,
-                    "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back3",
+                    "className": "c-projects-card__cta-link",
+                    "href": "#",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -1710,50 +1737,63 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": Array [
+                      "children": <div
+                        className="c-projects-card__cta"
+                      >
                         <p
                           className="c-projects-card__cta-text"
                         >
                           Commercial Experience
-                        </p>,
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="#"
+                        </p>
+                        <i
+                          className="icon-basic-webpage-multiple"
+                        />
+                        <p
+                          className="c-projects-card__cta-text"
                         >
-                          <i
-                            className="icon-basic-webpage-multiple"
-                          />
-                        </a>,
-                      ],
-                      "className": "c-projects-card__cta",
+                          Private repository
+                        </p>
+                      </div>,
+                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back3",
                     },
                     "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Commercial Experience",
-                          "className": "c-projects-card__cta-text",
-                        },
-                        "ref": null,
-                        "rendered": "Commercial Experience",
-                        "type": "p",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <i
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Commercial Experience
+                          </p>,
+                          <i
                             className="icon-basic-webpage-multiple"
                           />,
-                          "className": "c-projects-card__cta-link",
-                          "href": "#",
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Private repository
+                          </p>,
+                        ],
+                        "className": "c-projects-card__cta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Commercial Experience",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "Commercial Experience",
+                          "type": "p",
                         },
-                        "ref": null,
-                        "rendered": Object {
+                        Object {
                           "instance": null,
                           "key": undefined,
                           "nodeType": "host",
@@ -1764,12 +1804,24 @@ ShallowWrapper {
                           "rendered": null,
                           "type": "i",
                         },
-                        "type": "a",
-                      },
-                    ],
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Private repository",
+                            "className": "c-projects-card__cta-text",
+                          },
+                          "ref": null,
+                          "rendered": "Private repository",
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
                     "type": "div",
                   },
-                  "type": "div",
+                  "type": "a",
                 },
               ],
               "type": "div",
@@ -1846,28 +1898,28 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                  target="blank"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      Ruby Project
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                      target="blank"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Ruby Project
+                      </p>
                       <i
                         className="icon-basic-server2"
                       />
-                    </a>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
             <div
@@ -1915,28 +1967,28 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                  target="blank"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      React Project
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                      target="blank"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        React Project
+                      </p>
                       <i
                         className="icon-basic-link"
                       />
-                    </a>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
             <div
@@ -1981,27 +2033,32 @@ ShallowWrapper {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                <a
+                  className="c-projects-card__cta-link"
+                  href="#"
                 >
                   <div
-                    className="c-projects-card__cta"
+                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                   >
-                    <p
-                      className="c-projects-card__cta-text"
+                    <div
+                      className="c-projects-card__cta"
                     >
-                      Commercial Experience
-                    </p>
-                    <a
-                      className="c-projects-card__cta-link"
-                      href="#"
-                    >
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Commercial Experience
+                      </p>
                       <i
                         className="icon-basic-webpage-multiple"
                       />
-                    </a>
+                      <p
+                        className="c-projects-card__cta-text"
+                      >
+                        Private repository
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>,
@@ -2088,28 +2145,28 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                    target="blank"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Ruby Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>
                         <i
                           className="icon-basic-server2"
                         />
-                      </a>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>,
               <div
@@ -2157,28 +2214,28 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                    target="blank"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        React Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>
                         <i
                           className="icon-basic-link"
                         />
-                      </a>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>,
               <div
@@ -2223,27 +2280,32 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="#"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Commercial Experience
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="#"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>
                         <i
                           className="icon-basic-webpage-multiple"
                         />
-                      </a>
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Private repository
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>,
             ],
@@ -2298,28 +2360,28 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                    target="blank"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Ruby Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Ruby Project
+                        </p>
                         <i
                           className="icon-basic-server2"
                         />
-                      </a>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>,
                 "className": "g-grid__col-1-of-3",
               },
@@ -2369,28 +2431,28 @@ ShallowWrapper {
                         </ul>
                       </div>
                     </div>,
-                    <div
-                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/Tonys-blog"
+                      target="blank"
                     >
                       <div
-                        className="c-projects-card__cta"
+                        className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                       >
-                        <p
-                          className="c-projects-card__cta-text"
+                        <div
+                          className="c-projects-card__cta"
                         >
-                          Ruby Project
-                        </p>
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                          target="blank"
-                        >
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Ruby Project
+                          </p>
                           <i
                             className="icon-basic-server2"
                           />
-                        </a>
+                        </div>
                       </div>
-                    </div>,
+                    </a>,
                   ],
                   "className": "c-projects-card",
                 },
@@ -2600,24 +2662,24 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": <div
-                        className="c-projects-card__cta"
+                        className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back1"
                       >
-                        <p
-                          className="c-projects-card__cta-text"
+                        <div
+                          className="c-projects-card__cta"
                         >
-                          Ruby Project
-                        </p>
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                          target="blank"
-                        >
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Ruby Project
+                          </p>
                           <i
                             className="icon-basic-server2"
                           />
-                        </a>
+                        </div>
                       </div>,
-                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back1",
+                      "className": "c-projects-card__cta-link",
+                      "href": "https://github.com/affinity-digital-ltd/Tonys-blog",
+                      "target": "blank",
                     },
                     "ref": null,
                     "rendered": Object {
@@ -2625,52 +2687,53 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "children": Array [
+                        "children": <div
+                          className="c-projects-card__cta"
+                        >
                           <p
                             className="c-projects-card__cta-text"
                           >
                             Ruby Project
-                          </p>,
-                          <a
-                            className="c-projects-card__cta-link"
-                            href="https://github.com/affinity-digital-ltd/Tonys-blog"
-                            target="blank"
-                          >
-                            <i
-                              className="icon-basic-server2"
-                            />
-                          </a>,
-                        ],
-                        "className": "c-projects-card__cta",
+                          </p>
+                          <i
+                            className="icon-basic-server2"
+                          />
+                        </div>,
+                        "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back1",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Ruby Project",
-                            "className": "c-projects-card__cta-text",
-                          },
-                          "ref": null,
-                          "rendered": "Ruby Project",
-                          "type": "p",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <i
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <p
+                              className="c-projects-card__cta-text"
+                            >
+                              Ruby Project
+                            </p>,
+                            <i
                               className="icon-basic-server2"
                             />,
-                            "className": "c-projects-card__cta-link",
-                            "href": "https://github.com/affinity-digital-ltd/Tonys-blog",
-                            "target": "blank",
+                          ],
+                          "className": "c-projects-card__cta",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Ruby Project",
+                              "className": "c-projects-card__cta-text",
+                            },
+                            "ref": null,
+                            "rendered": "Ruby Project",
+                            "type": "p",
                           },
-                          "ref": null,
-                          "rendered": Object {
+                          Object {
                             "instance": null,
                             "key": undefined,
                             "nodeType": "host",
@@ -2681,12 +2744,12 @@ ShallowWrapper {
                             "rendered": null,
                             "type": "i",
                           },
-                          "type": "a",
-                        },
-                      ],
+                        ],
+                        "type": "div",
+                      },
                       "type": "div",
                     },
-                    "type": "div",
+                    "type": "a",
                   },
                 ],
                 "type": "div",
@@ -2740,28 +2803,28 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                    target="blank"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        React Project
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                        target="blank"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          React Project
+                        </p>
                         <i
                           className="icon-basic-link"
                         />
-                      </a>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>,
                 "className": "g-grid__col-1-of-3",
               },
@@ -2811,28 +2874,28 @@ ShallowWrapper {
                         </ul>
                       </div>
                     </div>,
-                    <div
-                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
+                      target="blank"
                     >
                       <div
-                        className="c-projects-card__cta"
+                        className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                       >
-                        <p
-                          className="c-projects-card__cta-text"
+                        <div
+                          className="c-projects-card__cta"
                         >
-                          React Project
-                        </p>
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                          target="blank"
-                        >
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            React Project
+                          </p>
                           <i
                             className="icon-basic-link"
                           />
-                        </a>
+                        </div>
                       </div>
-                    </div>,
+                    </a>,
                   ],
                   "className": "c-projects-card",
                 },
@@ -3042,24 +3105,24 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": <div
-                        className="c-projects-card__cta"
+                        className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back2"
                       >
-                        <p
-                          className="c-projects-card__cta-text"
+                        <div
+                          className="c-projects-card__cta"
                         >
-                          React Project
-                        </p>
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                          target="blank"
-                        >
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            React Project
+                          </p>
                           <i
                             className="icon-basic-link"
                           />
-                        </a>
+                        </div>
                       </div>,
-                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back2",
+                      "className": "c-projects-card__cta-link",
+                      "href": "https://github.com/affinity-digital-ltd/TBlog-FrontEnd",
+                      "target": "blank",
                     },
                     "ref": null,
                     "rendered": Object {
@@ -3067,52 +3130,53 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "children": Array [
+                        "children": <div
+                          className="c-projects-card__cta"
+                        >
                           <p
                             className="c-projects-card__cta-text"
                           >
                             React Project
-                          </p>,
-                          <a
-                            className="c-projects-card__cta-link"
-                            href="https://github.com/affinity-digital-ltd/TBlog-FrontEnd"
-                            target="blank"
-                          >
-                            <i
-                              className="icon-basic-link"
-                            />
-                          </a>,
-                        ],
-                        "className": "c-projects-card__cta",
+                          </p>
+                          <i
+                            className="icon-basic-link"
+                          />
+                        </div>,
+                        "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back2",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "React Project",
-                            "className": "c-projects-card__cta-text",
-                          },
-                          "ref": null,
-                          "rendered": "React Project",
-                          "type": "p",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <i
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <p
+                              className="c-projects-card__cta-text"
+                            >
+                              React Project
+                            </p>,
+                            <i
                               className="icon-basic-link"
                             />,
-                            "className": "c-projects-card__cta-link",
-                            "href": "https://github.com/affinity-digital-ltd/TBlog-FrontEnd",
-                            "target": "blank",
+                          ],
+                          "className": "c-projects-card__cta",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "React Project",
+                              "className": "c-projects-card__cta-text",
+                            },
+                            "ref": null,
+                            "rendered": "React Project",
+                            "type": "p",
                           },
-                          "ref": null,
-                          "rendered": Object {
+                          Object {
                             "instance": null,
                             "key": undefined,
                             "nodeType": "host",
@@ -3123,12 +3187,12 @@ ShallowWrapper {
                             "rendered": null,
                             "type": "i",
                           },
-                          "type": "a",
-                        },
-                      ],
+                        ],
+                        "type": "div",
+                      },
                       "type": "div",
                     },
-                    "type": "div",
+                    "type": "a",
                   },
                 ],
                 "type": "div",
@@ -3179,27 +3243,32 @@ ShallowWrapper {
                       </ul>
                     </div>
                   </div>
-                  <div
-                    className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                  <a
+                    className="c-projects-card__cta-link"
+                    href="#"
                   >
                     <div
-                      className="c-projects-card__cta"
+                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                     >
-                      <p
-                        className="c-projects-card__cta-text"
+                      <div
+                        className="c-projects-card__cta"
                       >
-                        Commercial Experience
-                      </p>
-                      <a
-                        className="c-projects-card__cta-link"
-                        href="#"
-                      >
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Commercial Experience
+                        </p>
                         <i
                           className="icon-basic-webpage-multiple"
                         />
-                      </a>
+                        <p
+                          className="c-projects-card__cta-text"
+                        >
+                          Private repository
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>,
                 "className": "g-grid__col-1-of-3 ",
               },
@@ -3246,27 +3315,32 @@ ShallowWrapper {
                         </ul>
                       </div>
                     </div>,
-                    <div
-                      className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
+                    <a
+                      className="c-projects-card__cta-link"
+                      href="#"
                     >
                       <div
-                        className="c-projects-card__cta"
+                        className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                       >
-                        <p
-                          className="c-projects-card__cta-text"
+                        <div
+                          className="c-projects-card__cta"
                         >
-                          Commercial Experience
-                        </p>
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="#"
-                        >
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Commercial Experience
+                          </p>
                           <i
                             className="icon-basic-webpage-multiple"
                           />
-                        </a>
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Private repository
+                          </p>
+                        </div>
                       </div>
-                    </div>,
+                    </a>,
                   ],
                   "className": "c-projects-card",
                 },
@@ -3456,23 +3530,28 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": <div
-                        className="c-projects-card__cta"
+                        className="c-projects-card__side c-projects-card__side--back c-projects-card__side--back3"
                       >
-                        <p
-                          className="c-projects-card__cta-text"
+                        <div
+                          className="c-projects-card__cta"
                         >
-                          Commercial Experience
-                        </p>
-                        <a
-                          className="c-projects-card__cta-link"
-                          href="#"
-                        >
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Commercial Experience
+                          </p>
                           <i
                             className="icon-basic-webpage-multiple"
                           />
-                        </a>
+                          <p
+                            className="c-projects-card__cta-text"
+                          >
+                            Private repository
+                          </p>
+                        </div>
                       </div>,
-                      "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back3",
+                      "className": "c-projects-card__cta-link",
+                      "href": "#",
                     },
                     "ref": null,
                     "rendered": Object {
@@ -3480,50 +3559,63 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "children": Array [
+                        "children": <div
+                          className="c-projects-card__cta"
+                        >
                           <p
                             className="c-projects-card__cta-text"
                           >
                             Commercial Experience
-                          </p>,
-                          <a
-                            className="c-projects-card__cta-link"
-                            href="#"
+                          </p>
+                          <i
+                            className="icon-basic-webpage-multiple"
+                          />
+                          <p
+                            className="c-projects-card__cta-text"
                           >
-                            <i
-                              className="icon-basic-webpage-multiple"
-                            />
-                          </a>,
-                        ],
-                        "className": "c-projects-card__cta",
+                            Private repository
+                          </p>
+                        </div>,
+                        "className": "c-projects-card__side c-projects-card__side--back c-projects-card__side--back3",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Commercial Experience",
-                            "className": "c-projects-card__cta-text",
-                          },
-                          "ref": null,
-                          "rendered": "Commercial Experience",
-                          "type": "p",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": <i
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <p
+                              className="c-projects-card__cta-text"
+                            >
+                              Commercial Experience
+                            </p>,
+                            <i
                               className="icon-basic-webpage-multiple"
                             />,
-                            "className": "c-projects-card__cta-link",
-                            "href": "#",
+                            <p
+                              className="c-projects-card__cta-text"
+                            >
+                              Private repository
+                            </p>,
+                          ],
+                          "className": "c-projects-card__cta",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Commercial Experience",
+                              "className": "c-projects-card__cta-text",
+                            },
+                            "ref": null,
+                            "rendered": "Commercial Experience",
+                            "type": "p",
                           },
-                          "ref": null,
-                          "rendered": Object {
+                          Object {
                             "instance": null,
                             "key": undefined,
                             "nodeType": "host",
@@ -3534,12 +3626,24 @@ ShallowWrapper {
                             "rendered": null,
                             "type": "i",
                           },
-                          "type": "a",
-                        },
-                      ],
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Private repository",
+                              "className": "c-projects-card__cta-text",
+                            },
+                            "ref": null,
+                            "rendered": "Private repository",
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
                       "type": "div",
                     },
-                    "type": "div",
+                    "type": "a",
                   },
                 ],
                 "type": "div",

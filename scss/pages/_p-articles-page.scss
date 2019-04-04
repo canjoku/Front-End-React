@@ -1,5 +1,8 @@
 .p-articles-page {
 
+  &__content-area {
+    min-height: 80vh;
+  }
   &__top-space {
     background-color: var(--light-grey-1);
     padding: 15rem 0;

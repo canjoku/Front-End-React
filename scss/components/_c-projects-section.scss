@@ -19,7 +19,6 @@
     text-transform: uppercase;
 
     &:hover {
-      transform: skewY(2deg) skewX(15deg) scale(1.1);
       text-shadow: .3rem 0.625rem 1.25rem rgba(var(--black), .2)
     }
 

@@ -25,7 +25,7 @@ class CommentsSection extends Component {
     if (this.auth.isAuthenticated()){
       return(
         <div className='c-comments-section'>
-        <a className='c-comments-section__cta-link' onClick={this.logout}>Logout</a>
+          <a className='c-comments-section__cta-link' onClick={this.logout}>Logout</a>
           <CommentsForm mutation={mutation} slug={slug} />
           {comments.map((comment, index) => {
             return(

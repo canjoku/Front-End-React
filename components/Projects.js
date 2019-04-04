@@ -29,12 +29,14 @@ class Projects extends Component {
                   </ul>
                 </div>
               </div>
-              <div className='c-projects-card__side c-projects-card__side--back c-projects-card__side--back1'>
-                <div className='c-projects-card__cta'>
-                  <p className='c-projects-card__cta-text'>Ruby Project</p>
-                  <a href='https://github.com/affinity-digital-ltd/Tonys-blog' target='blank' className='c-projects-card__cta-link'><i className="icon-basic-server2"></i></a>
+              <a href='https://github.com/affinity-digital-ltd/Tonys-blog' target='blank' className='c-projects-card__cta-link'>
+                <div className='c-projects-card__side c-projects-card__side--back c-projects-card__side--back1'>
+                  <div className='c-projects-card__cta'>
+                    <p className='c-projects-card__cta-text'>Ruby Project</p>
+                    <i className="icon-basic-server2"></i>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div className='g-grid__col-1-of-3'>
@@ -56,12 +58,14 @@ class Projects extends Component {
                   </ul>
                 </div>
               </div>
-              <div className='c-projects-card__side c-projects-card__side--back c-projects-card__side--back2'>
-                <div className='c-projects-card__cta'>
-                  <p className='c-projects-card__cta-text'>React Project</p>
-                  <a href='https://github.com/affinity-digital-ltd/TBlog-FrontEnd' target='blank' className='c-projects-card__cta-link'><i className="icon-basic-link"></i></a>
+              <a href='https://github.com/affinity-digital-ltd/TBlog-FrontEnd' target='blank' className='c-projects-card__cta-link'>
+                <div className='c-projects-card__side c-projects-card__side--back c-projects-card__side--back2'>
+                  <div className='c-projects-card__cta'>
+                    <p className='c-projects-card__cta-text'>React Project</p>
+                    <i className="icon-basic-link"></i>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div className='g-grid__col-1-of-3 '>
@@ -82,12 +86,15 @@ class Projects extends Component {
                   </ul>
                 </div>
               </div>
-              <div className='c-projects-card__side c-projects-card__side--back c-projects-card__side--back3'>
-                <div className='c-projects-card__cta'>
-                  <p className='c-projects-card__cta-text'>Commercial Experience</p>
-                  <a href='#' className='c-projects-card__cta-link'><i className="icon-basic-webpage-multiple"></i></a>
+              <a href='#' className='c-projects-card__cta-link'>
+                <div className='c-projects-card__side c-projects-card__side--back c-projects-card__side--back3'>
+                  <div className='c-projects-card__cta'>
+                    <p className='c-projects-card__cta-text'>Commercial Experience</p>
+                    <i className="icon-basic-webpage-multiple"></i>
+                    <p className='c-projects-card__cta-text'>Private repository</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

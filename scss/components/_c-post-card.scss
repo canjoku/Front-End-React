@@ -23,13 +23,11 @@
     }
   }
 
-  &:hover {
-    transform: translateY(-1.9rem) scale(1.03)
-  }
 
   &__link {
     text-decoration: none;
     color: var(--white);
+    cursor: pointer;
   }
 
 }
