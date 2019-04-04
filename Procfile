@@ -1,1 +1,1 @@
-web: yarn run build && yarn run start
+web: next build && next start -p process.env.PORT
