@@ -21,7 +21,8 @@
     "postmark": "^2.2.4",
     "react": "^16.6.3",
     "react-apollo": "^2.3.2",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "markdown-to-jsx": "^6.9.0"
   },
   "standard": {
     "globals": [
@@ -68,8 +69,7 @@
     "identity-obj-proxy": "^3.0.0",
     "image-webpack-loader": "^4.6.0",
     "jest": "^22.4.0",
-    "jest-enzyme": "^4.2.0",
-    "markdown-to-jsx": "^6.9.0"
+    "jest-enzyme": "^4.2.0"
   },
   "engine": {
     "node": "11.13.0",
