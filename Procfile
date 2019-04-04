@@ -1,1 +1,1 @@
-web: yarn run build && yarn run start -p $PORT
+web: yarn run build && yarn run start --port=$PORT
