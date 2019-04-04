@@ -16,7 +16,7 @@ class Layout extends Component {
         <Head>
           <title>Chidi Njoku</title>
           <link rel='stylesheet' href='/_next/static/style.css' />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1.0' />
         </Head>
         <Header mutation={mutation}/>
           { this.props.children }
