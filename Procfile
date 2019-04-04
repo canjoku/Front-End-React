@@ -1,1 +1,1 @@
-web: yarn run build && yarn run start --port=$PORT
+web: yarn run build && yarn run start && yarn run heroku-postbuild
