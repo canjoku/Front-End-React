@@ -1,1 +1,1 @@
-web: yarn run build && yarn run start && yarn run heroku-postbuild
+worker: yarn run build && yarn run start && yarn run heroku-postbuild
