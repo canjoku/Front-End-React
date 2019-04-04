@@ -1,1 +1,1 @@
-web: npm run build && npm run start -p process.env.PORT
+web: npm run build && npm run start -p $PORT
