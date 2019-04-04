@@ -70,6 +70,9 @@
     "jest-enzyme": "^4.2.0",
     "markdown-to-jsx": "^6.9.0"
   },
+  "engine": {
+    "node": "11.13.0"
+  },
   "moduleFileExtensions": [
     "js",
     "json",
