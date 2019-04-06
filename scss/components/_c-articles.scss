@@ -3,13 +3,8 @@
   background-image: url('/static/images/web.jpg');
   background-size: cover;
   position: relative;
-
-  transform: skewY(-7deg);
   margin-top: -4rem;
 
-  & > * {
-    transform: skewY(7deg);
-  }
 
   &__primary-heading {
     position: absolute;
