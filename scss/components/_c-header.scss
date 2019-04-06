@@ -6,11 +6,6 @@
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 
-  @include response(tab-port) {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 82vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 82vh, 0 100%);
-  }
-
   &__content {
     position: absolute;
     top: 40%;
@@ -26,45 +21,19 @@
 
     &--main {
       display: block;
-      font-size: 2.5rem;;
-      font-weight: 700;
+      font-size: 1.5rem;;
+      font-weight: 400;
       letter-spacing: 1.8rem;
       animation: moveInLeft 1s ease-out;
-
-
-      @include response(tab-port) {
-        font-size: 2.2rem;
-        font-weight: 500;
-        letter-spacing: 1.0rem;
-        margin-top: 2.0rem;
-      }
-
-      @include response(phone) {
-        font-size: 0.9rem;
-      }
     }
 
     &--sub {
       display: block;
-      font-size: 1rem;
-      font-weight: 600;
-      letter-spacing: 0.8rem;
+      font-size: 0.9rem;
+      font-weight: 300;
+      letter-spacing: 0.6rem;
       animation: moveInRight 1s ease-out;
-      margin-bottom: 2.5rem;
-
-      @include response(tab-port) {
-        font-size: 0.9rem;
-        font-weight: 700;
-        letter-spacing: 0.7rem;
-      }
-
-      @include response(phone) {
-        font-size: 0.9rem;
-        font-weight: 700;
-        letter-spacing: 0.7rem;
-      }
-
+      margin-bottom: 3.5rem;
     }
-
   }
 }

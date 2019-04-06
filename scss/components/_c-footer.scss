@@ -1,12 +1,12 @@
 .c-footer {
   background-color: var(--dark-grey3);
-  padding: 3.25rem 0;
+  padding: 10rem 0;
   font-size: 0.9rem;
 
   &__navigation {
     border-top: .0625rem solid var(--dark-grey);
     padding: 1.25rem;
-    display:inline-block;
+    display: inline-block;
   }
 
   &__list {
@@ -47,4 +47,10 @@
     width: 80%;
     float: right;
   }
+
+  &__container {
+    display: flex column;
+    height: 100%;
+  }
+
 }

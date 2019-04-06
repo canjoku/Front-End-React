@@ -1,13 +1,5 @@
 .c-comments-section {
-  padding: 0 25rem 2rem 25rem;
-
-  @include response(tab-port) {
-    padding: 0 5rem 3rem 5rem;
-  }
-
-  @include response(phone) {
-    padding: 0 3rem 2rem 3rem;
-  }
+  padding: 0 2rem 2rem 2rem;
 
   &__cta {
     color: var(--dark-green);

@@ -29,11 +29,523 @@ ShallowWrapper {
           </h2>
         </div>,
         <div
-          className="g-grid__row"
+          className="c-about-section__text-image-container"
         >
           <div
-            className="g-grid__col-1-of-2"
+            className="c-image-composition"
           >
+            <img
+              alt="photo-1"
+              className="c-image-composition__photo c-image-composition__photo--p1"
+              src="/static/images/pic22.jpg"
+            />
+            <img
+              alt="photo-2"
+              className="c-image-composition__photo c-image-composition__photo--p2"
+              src="/static/images/pic6.jpg"
+            />
+            <img
+              alt="photo-3"
+              className="c-image-composition__photo c-image-composition__photo--p3"
+              src="/static/images/pic20.jpg"
+            />
+          </div>
+          <div
+            className="c-about-section__about-me"
+          >
+            <h3
+              className="c-about-section__tertiary-heading u-bottom-margin-small"
+            >
+              I'm Chidi Njoku and I'm a full stack web developer
+            </h3>
+            <p
+              className="u-bottom-margin-medium"
+            >
+              I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
+            </p>
+            <h3
+              className="c-about-section__tertiary-heading"
+            >
+              Summary of Skills
+            </h3>
+            <ul
+              className="c-about-section__list"
+            >
+              <li
+                className="c-about-section__item"
+              >
+                Experience with Ruby on Rails
+              </li>
+              <li
+                className="c-about-section__item"
+              >
+                Solid understanding of SQL
+              </li>
+              <li
+                className="c-about-section__item"
+              >
+                Experince with AWS and Docker containers
+              </li>
+              <li
+                className="c-about-section__item"
+              >
+                Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
+              </li>
+              <li
+                className="c-about-section__item"
+              >
+                Experience with conitnuous integration
+              </li>
+              <li
+                className="c-about-section__item"
+              >
+                Experience with GraphQl, React.js
+              </li>
+            </ul>
+          </div>
+        </div>,
+      ],
+      "className": "c-about-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2
+            className="c-about-section__primary-heading"
+          >
+            About Me
+          </h2>,
+          "className": "u-center-text u-bottom-margin-small",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About Me",
+            "className": "c-about-section__primary-heading",
+          },
+          "ref": null,
+          "rendered": "About Me",
+          "type": "h2",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="c-image-composition"
+            >
+              <img
+                alt="photo-1"
+                className="c-image-composition__photo c-image-composition__photo--p1"
+                src="/static/images/pic22.jpg"
+              />
+              <img
+                alt="photo-2"
+                className="c-image-composition__photo c-image-composition__photo--p2"
+                src="/static/images/pic6.jpg"
+              />
+              <img
+                alt="photo-3"
+                className="c-image-composition__photo c-image-composition__photo--p3"
+                src="/static/images/pic20.jpg"
+              />
+            </div>,
+            <div
+              className="c-about-section__about-me"
+            >
+              <h3
+                className="c-about-section__tertiary-heading u-bottom-margin-small"
+              >
+                I'm Chidi Njoku and I'm a full stack web developer
+              </h3>
+              <p
+                className="u-bottom-margin-medium"
+              >
+                I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
+              </p>
+              <h3
+                className="c-about-section__tertiary-heading"
+              >
+                Summary of Skills
+              </h3>
+              <ul
+                className="c-about-section__list"
+              >
+                <li
+                  className="c-about-section__item"
+                >
+                  Experience with Ruby on Rails
+                </li>
+                <li
+                  className="c-about-section__item"
+                >
+                  Solid understanding of SQL
+                </li>
+                <li
+                  className="c-about-section__item"
+                >
+                  Experince with AWS and Docker containers
+                </li>
+                <li
+                  className="c-about-section__item"
+                >
+                  Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
+                </li>
+                <li
+                  className="c-about-section__item"
+                >
+                  Experience with conitnuous integration
+                </li>
+                <li
+                  className="c-about-section__item"
+                >
+                  Experience with GraphQl, React.js
+                </li>
+              </ul>
+            </div>,
+          ],
+          "className": "c-about-section__text-image-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="photo-1"
+                  className="c-image-composition__photo c-image-composition__photo--p1"
+                  src="/static/images/pic22.jpg"
+                />,
+                <img
+                  alt="photo-2"
+                  className="c-image-composition__photo c-image-composition__photo--p2"
+                  src="/static/images/pic6.jpg"
+                />,
+                <img
+                  alt="photo-3"
+                  className="c-image-composition__photo c-image-composition__photo--p3"
+                  src="/static/images/pic20.jpg"
+                />,
+              ],
+              "className": "c-image-composition",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "photo-1",
+                  "className": "c-image-composition__photo c-image-composition__photo--p1",
+                  "src": "/static/images/pic22.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "photo-2",
+                  "className": "c-image-composition__photo c-image-composition__photo--p2",
+                  "src": "/static/images/pic6.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "photo-3",
+                  "className": "c-image-composition__photo c-image-composition__photo--p3",
+                  "src": "/static/images/pic20.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="c-about-section__tertiary-heading u-bottom-margin-small"
+                >
+                  I'm Chidi Njoku and I'm a full stack web developer
+                </h3>,
+                <p
+                  className="u-bottom-margin-medium"
+                >
+                  I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
+                </p>,
+                <h3
+                  className="c-about-section__tertiary-heading"
+                >
+                  Summary of Skills
+                </h3>,
+                <ul
+                  className="c-about-section__list"
+                >
+                  <li
+                    className="c-about-section__item"
+                  >
+                    Experience with Ruby on Rails
+                  </li>
+                  <li
+                    className="c-about-section__item"
+                  >
+                    Solid understanding of SQL
+                  </li>
+                  <li
+                    className="c-about-section__item"
+                  >
+                    Experince with AWS and Docker containers
+                  </li>
+                  <li
+                    className="c-about-section__item"
+                  >
+                    Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
+                  </li>
+                  <li
+                    className="c-about-section__item"
+                  >
+                    Experience with conitnuous integration
+                  </li>
+                  <li
+                    className="c-about-section__item"
+                  >
+                    Experience with GraphQl, React.js
+                  </li>
+                </ul>,
+              ],
+              "className": "c-about-section__about-me",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I'm Chidi Njoku and I'm a full stack web developer",
+                  "className": "c-about-section__tertiary-heading u-bottom-margin-small",
+                },
+                "ref": null,
+                "rendered": "I'm Chidi Njoku and I'm a full stack web developer",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.",
+                  "className": "u-bottom-margin-medium",
+                },
+                "ref": null,
+                "rendered": "I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Summary of Skills",
+                  "className": "c-about-section__tertiary-heading",
+                },
+                "ref": null,
+                "rendered": "Summary of Skills",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="c-about-section__item"
+                    >
+                      Experience with Ruby on Rails
+                    </li>,
+                    <li
+                      className="c-about-section__item"
+                    >
+                      Solid understanding of SQL
+                    </li>,
+                    <li
+                      className="c-about-section__item"
+                    >
+                      Experince with AWS and Docker containers
+                    </li>,
+                    <li
+                      className="c-about-section__item"
+                    >
+                      Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
+                    </li>,
+                    <li
+                      className="c-about-section__item"
+                    >
+                      Experience with conitnuous integration
+                    </li>,
+                    <li
+                      className="c-about-section__item"
+                    >
+                      Experience with GraphQl, React.js
+                    </li>,
+                  ],
+                  "className": "c-about-section__list",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Experience with Ruby on Rails",
+                      "className": "c-about-section__item",
+                    },
+                    "ref": null,
+                    "rendered": "Experience with Ruby on Rails",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Solid understanding of SQL",
+                      "className": "c-about-section__item",
+                    },
+                    "ref": null,
+                    "rendered": "Solid understanding of SQL",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Experince with AWS and Docker containers",
+                      "className": "c-about-section__item",
+                    },
+                    "ref": null,
+                    "rendered": "Experince with AWS and Docker containers",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme",
+                      "className": "c-about-section__item",
+                    },
+                    "ref": null,
+                    "rendered": "Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Experience with conitnuous integration",
+                      "className": "c-about-section__item",
+                    },
+                    "ref": null,
+                    "rendered": "Experience with conitnuous integration",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Experience with GraphQl, React.js",
+                      "className": "c-about-section__item",
+                    },
+                    "ref": null,
+                    "rendered": "Experience with GraphQl, React.js",
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="u-center-text u-bottom-margin-small"
+          >
+            <h2
+              className="c-about-section__primary-heading"
+            >
+              About Me
+            </h2>
+          </div>,
+          <div
+            className="c-about-section__text-image-container"
+          >
+            <div
+              className="c-image-composition"
+            >
+              <img
+                alt="photo-1"
+                className="c-image-composition__photo c-image-composition__photo--p1"
+                src="/static/images/pic22.jpg"
+              />
+              <img
+                alt="photo-2"
+                className="c-image-composition__photo c-image-composition__photo--p2"
+                src="/static/images/pic6.jpg"
+              />
+              <img
+                alt="photo-3"
+                className="c-image-composition__photo c-image-composition__photo--p3"
+                src="/static/images/pic20.jpg"
+              />
+            </div>
             <div
               className="c-about-section__about-me"
             >
@@ -87,129 +599,45 @@ ShallowWrapper {
                 </li>
               </ul>
             </div>
-          </div>
-          <div
-            className="g-grid__col-1-of-2"
-          >
-            <div
-              className="c-image-composition"
-            >
-              <img
-                alt="photo-1"
-                className="c-image-composition__photo c-image-composition__photo--p1"
-                src="/static/images/pic22.jpg"
-              />
-              <img
-                alt="photo-2"
-                className="c-image-composition__photo c-image-composition__photo--p2"
-                src="/static/images/pic6.jpg"
-              />
-              <img
-                alt="photo-3"
-                className="c-image-composition__photo c-image-composition__photo--p3"
-                src="/static/images/pic20.jpg"
-              />
-            </div>
-          </div>
-        </div>,
-      ],
-      "className": "c-about-section",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <h2
-            className="c-about-section__primary-heading"
-          >
-            About Me
-          </h2>,
-          "className": "u-center-text u-bottom-margin-small",
-        },
-        "ref": null,
-        "rendered": Object {
+          </div>,
+        ],
+        "className": "c-about-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "About Me",
-            "className": "c-about-section__primary-heading",
+            "children": <h2
+              className="c-about-section__primary-heading"
+            >
+              About Me
+            </h2>,
+            "className": "u-center-text u-bottom-margin-small",
           },
           "ref": null,
-          "rendered": "About Me",
-          "type": "h2",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About Me",
+              "className": "c-about-section__primary-heading",
+            },
+            "ref": null,
+            "rendered": "About Me",
+            "type": "h2",
+          },
+          "type": "div",
         },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <div
-              className="g-grid__col-1-of-2"
-            >
-              <div
-                className="c-about-section__about-me"
-              >
-                <h3
-                  className="c-about-section__tertiary-heading u-bottom-margin-small"
-                >
-                  I'm Chidi Njoku and I'm a full stack web developer
-                </h3>
-                <p
-                  className="u-bottom-margin-medium"
-                >
-                  I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
-                </p>
-                <h3
-                  className="c-about-section__tertiary-heading"
-                >
-                  Summary of Skills
-                </h3>
-                <ul
-                  className="c-about-section__list"
-                >
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experience with Ruby on Rails
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Solid understanding of SQL
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experince with AWS and Docker containers
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experience with conitnuous integration
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experience with GraphQl, React.js
-                  </li>
-                </ul>
-              </div>
-            </div>,
-            <div
-              className="g-grid__col-1-of-2"
-            >
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
               <div
                 className="c-image-composition"
               >
@@ -228,19 +656,8 @@ ShallowWrapper {
                   className="c-image-composition__photo c-image-composition__photo--p3"
                   src="/static/images/pic20.jpg"
                 />
-              </div>
-            </div>,
-          ],
-          "className": "g-grid__row",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
+              </div>,
+              <div
                 className="c-about-section__about-me"
               >
                 <h3
@@ -293,10 +710,80 @@ ShallowWrapper {
                   </li>
                 </ul>
               </div>,
-              "className": "g-grid__col-1-of-2",
+            ],
+            "className": "c-about-section__text-image-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="photo-1"
+                    className="c-image-composition__photo c-image-composition__photo--p1"
+                    src="/static/images/pic22.jpg"
+                  />,
+                  <img
+                    alt="photo-2"
+                    className="c-image-composition__photo c-image-composition__photo--p2"
+                    src="/static/images/pic6.jpg"
+                  />,
+                  <img
+                    alt="photo-3"
+                    className="c-image-composition__photo c-image-composition__photo--p3"
+                    src="/static/images/pic20.jpg"
+                  />,
+                ],
+                "className": "c-image-composition",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "photo-1",
+                    "className": "c-image-composition__photo c-image-composition__photo--p1",
+                    "src": "/static/images/pic22.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "photo-2",
+                    "className": "c-image-composition__photo c-image-composition__photo--p2",
+                    "src": "/static/images/pic6.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "photo-3",
+                    "className": "c-image-composition__photo c-image-composition__photo--p3",
+                    "src": "/static/images/pic20.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+              ],
+              "type": "div",
             },
-            "ref": null,
-            "rendered": Object {
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
@@ -509,709 +996,6 @@ ShallowWrapper {
                   "type": "ul",
                 },
               ],
-              "type": "div",
-            },
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
-                className="c-image-composition"
-              >
-                <img
-                  alt="photo-1"
-                  className="c-image-composition__photo c-image-composition__photo--p1"
-                  src="/static/images/pic22.jpg"
-                />
-                <img
-                  alt="photo-2"
-                  className="c-image-composition__photo c-image-composition__photo--p2"
-                  src="/static/images/pic6.jpg"
-                />
-                <img
-                  alt="photo-3"
-                  className="c-image-composition__photo c-image-composition__photo--p3"
-                  src="/static/images/pic20.jpg"
-                />
-              </div>,
-              "className": "g-grid__col-1-of-2",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <img
-                    alt="photo-1"
-                    className="c-image-composition__photo c-image-composition__photo--p1"
-                    src="/static/images/pic22.jpg"
-                  />,
-                  <img
-                    alt="photo-2"
-                    className="c-image-composition__photo c-image-composition__photo--p2"
-                    src="/static/images/pic6.jpg"
-                  />,
-                  <img
-                    alt="photo-3"
-                    className="c-image-composition__photo c-image-composition__photo--p3"
-                    src="/static/images/pic20.jpg"
-                  />,
-                ],
-                "className": "c-image-composition",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "alt": "photo-1",
-                    "className": "c-image-composition__photo c-image-composition__photo--p1",
-                    "src": "/static/images/pic22.jpg",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "img",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "alt": "photo-2",
-                    "className": "c-image-composition__photo c-image-composition__photo--p2",
-                    "src": "/static/images/pic6.jpg",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "img",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "alt": "photo-3",
-                    "className": "c-image-composition__photo c-image-composition__photo--p3",
-                    "src": "/static/images/pic20.jpg",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "img",
-                },
-              ],
-              "type": "div",
-            },
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "section",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="u-center-text u-bottom-margin-small"
-          >
-            <h2
-              className="c-about-section__primary-heading"
-            >
-              About Me
-            </h2>
-          </div>,
-          <div
-            className="g-grid__row"
-          >
-            <div
-              className="g-grid__col-1-of-2"
-            >
-              <div
-                className="c-about-section__about-me"
-              >
-                <h3
-                  className="c-about-section__tertiary-heading u-bottom-margin-small"
-                >
-                  I'm Chidi Njoku and I'm a full stack web developer
-                </h3>
-                <p
-                  className="u-bottom-margin-medium"
-                >
-                  I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
-                </p>
-                <h3
-                  className="c-about-section__tertiary-heading"
-                >
-                  Summary of Skills
-                </h3>
-                <ul
-                  className="c-about-section__list"
-                >
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experience with Ruby on Rails
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Solid understanding of SQL
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experince with AWS and Docker containers
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experience with conitnuous integration
-                  </li>
-                  <li
-                    className="c-about-section__item"
-                  >
-                    Experience with GraphQl, React.js
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              className="g-grid__col-1-of-2"
-            >
-              <div
-                className="c-image-composition"
-              >
-                <img
-                  alt="photo-1"
-                  className="c-image-composition__photo c-image-composition__photo--p1"
-                  src="/static/images/pic22.jpg"
-                />
-                <img
-                  alt="photo-2"
-                  className="c-image-composition__photo c-image-composition__photo--p2"
-                  src="/static/images/pic6.jpg"
-                />
-                <img
-                  alt="photo-3"
-                  className="c-image-composition__photo c-image-composition__photo--p3"
-                  src="/static/images/pic20.jpg"
-                />
-              </div>
-            </div>
-          </div>,
-        ],
-        "className": "c-about-section",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <h2
-              className="c-about-section__primary-heading"
-            >
-              About Me
-            </h2>,
-            "className": "u-center-text u-bottom-margin-small",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "About Me",
-              "className": "c-about-section__primary-heading",
-            },
-            "ref": null,
-            "rendered": "About Me",
-            "type": "h2",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div
-                className="g-grid__col-1-of-2"
-              >
-                <div
-                  className="c-about-section__about-me"
-                >
-                  <h3
-                    className="c-about-section__tertiary-heading u-bottom-margin-small"
-                  >
-                    I'm Chidi Njoku and I'm a full stack web developer
-                  </h3>
-                  <p
-                    className="u-bottom-margin-medium"
-                  >
-                    I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
-                  </p>
-                  <h3
-                    className="c-about-section__tertiary-heading"
-                  >
-                    Summary of Skills
-                  </h3>
-                  <ul
-                    className="c-about-section__list"
-                  >
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experience with Ruby on Rails
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Solid understanding of SQL
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experince with AWS and Docker containers
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experience with conitnuous integration
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experience with GraphQl, React.js
-                    </li>
-                  </ul>
-                </div>
-              </div>,
-              <div
-                className="g-grid__col-1-of-2"
-              >
-                <div
-                  className="c-image-composition"
-                >
-                  <img
-                    alt="photo-1"
-                    className="c-image-composition__photo c-image-composition__photo--p1"
-                    src="/static/images/pic22.jpg"
-                  />
-                  <img
-                    alt="photo-2"
-                    className="c-image-composition__photo c-image-composition__photo--p2"
-                    src="/static/images/pic6.jpg"
-                  />
-                  <img
-                    alt="photo-3"
-                    className="c-image-composition__photo c-image-composition__photo--p3"
-                    src="/static/images/pic20.jpg"
-                  />
-                </div>
-              </div>,
-            ],
-            "className": "g-grid__row",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <div
-                  className="c-about-section__about-me"
-                >
-                  <h3
-                    className="c-about-section__tertiary-heading u-bottom-margin-small"
-                  >
-                    I'm Chidi Njoku and I'm a full stack web developer
-                  </h3>
-                  <p
-                    className="u-bottom-margin-medium"
-                  >
-                    I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
-                  </p>
-                  <h3
-                    className="c-about-section__tertiary-heading"
-                  >
-                    Summary of Skills
-                  </h3>
-                  <ul
-                    className="c-about-section__list"
-                  >
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experience with Ruby on Rails
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Solid understanding of SQL
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experince with AWS and Docker containers
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experience with conitnuous integration
-                    </li>
-                    <li
-                      className="c-about-section__item"
-                    >
-                      Experience with GraphQl, React.js
-                    </li>
-                  </ul>
-                </div>,
-                "className": "g-grid__col-1-of-2",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <h3
-                      className="c-about-section__tertiary-heading u-bottom-margin-small"
-                    >
-                      I'm Chidi Njoku and I'm a full stack web developer
-                    </h3>,
-                    <p
-                      className="u-bottom-margin-medium"
-                    >
-                      I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.
-                    </p>,
-                    <h3
-                      className="c-about-section__tertiary-heading"
-                    >
-                      Summary of Skills
-                    </h3>,
-                    <ul
-                      className="c-about-section__list"
-                    >
-                      <li
-                        className="c-about-section__item"
-                      >
-                        Experience with Ruby on Rails
-                      </li>
-                      <li
-                        className="c-about-section__item"
-                      >
-                        Solid understanding of SQL
-                      </li>
-                      <li
-                        className="c-about-section__item"
-                      >
-                        Experince with AWS and Docker containers
-                      </li>
-                      <li
-                        className="c-about-section__item"
-                      >
-                        Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
-                      </li>
-                      <li
-                        className="c-about-section__item"
-                      >
-                        Experience with conitnuous integration
-                      </li>
-                      <li
-                        className="c-about-section__item"
-                      >
-                        Experience with GraphQl, React.js
-                      </li>
-                    </ul>,
-                  ],
-                  "className": "c-about-section__about-me",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "I'm Chidi Njoku and I'm a full stack web developer",
-                      "className": "c-about-section__tertiary-heading u-bottom-margin-small",
-                    },
-                    "ref": null,
-                    "rendered": "I'm Chidi Njoku and I'm a full stack web developer",
-                    "type": "h3",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.",
-                      "className": "u-bottom-margin-medium",
-                    },
-                    "ref": null,
-                    "rendered": "I am a passionate and talented developer. I posess strong coding, technical, problem solving abilities and a knack for writting clean, readable code. I am the kind of guy who goes beyond the routine and likes to do a little bit of everything. I am committed to collaborative problem solving, building quality products and sophisticated design.",
-                    "type": "p",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "Summary of Skills",
-                      "className": "c-about-section__tertiary-heading",
-                    },
-                    "ref": null,
-                    "rendered": "Summary of Skills",
-                    "type": "h3",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <li
-                          className="c-about-section__item"
-                        >
-                          Experience with Ruby on Rails
-                        </li>,
-                        <li
-                          className="c-about-section__item"
-                        >
-                          Solid understanding of SQL
-                        </li>,
-                        <li
-                          className="c-about-section__item"
-                        >
-                          Experince with AWS and Docker containers
-                        </li>,
-                        <li
-                          className="c-about-section__item"
-                        >
-                          Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme
-                        </li>,
-                        <li
-                          className="c-about-section__item"
-                        >
-                          Experience with conitnuous integration
-                        </li>,
-                        <li
-                          className="c-about-section__item"
-                        >
-                          Experience with GraphQl, React.js
-                        </li>,
-                      ],
-                      "className": "c-about-section__list",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Experience with Ruby on Rails",
-                          "className": "c-about-section__item",
-                        },
-                        "ref": null,
-                        "rendered": "Experience with Ruby on Rails",
-                        "type": "li",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Solid understanding of SQL",
-                          "className": "c-about-section__item",
-                        },
-                        "ref": null,
-                        "rendered": "Solid understanding of SQL",
-                        "type": "li",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Experince with AWS and Docker containers",
-                          "className": "c-about-section__item",
-                        },
-                        "ref": null,
-                        "rendered": "Experince with AWS and Docker containers",
-                        "type": "li",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme",
-                          "className": "c-about-section__item",
-                        },
-                        "ref": null,
-                        "rendered": "Experince with Test-Driven Development (TDD), specifically Rspec/Capybara and Jest/Enzyme",
-                        "type": "li",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Experience with conitnuous integration",
-                          "className": "c-about-section__item",
-                        },
-                        "ref": null,
-                        "rendered": "Experience with conitnuous integration",
-                        "type": "li",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Experience with GraphQl, React.js",
-                          "className": "c-about-section__item",
-                        },
-                        "ref": null,
-                        "rendered": "Experience with GraphQl, React.js",
-                        "type": "li",
-                      },
-                    ],
-                    "type": "ul",
-                  },
-                ],
-                "type": "div",
-              },
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <div
-                  className="c-image-composition"
-                >
-                  <img
-                    alt="photo-1"
-                    className="c-image-composition__photo c-image-composition__photo--p1"
-                    src="/static/images/pic22.jpg"
-                  />
-                  <img
-                    alt="photo-2"
-                    className="c-image-composition__photo c-image-composition__photo--p2"
-                    src="/static/images/pic6.jpg"
-                  />
-                  <img
-                    alt="photo-3"
-                    className="c-image-composition__photo c-image-composition__photo--p3"
-                    src="/static/images/pic20.jpg"
-                  />
-                </div>,
-                "className": "g-grid__col-1-of-2",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <img
-                      alt="photo-1"
-                      className="c-image-composition__photo c-image-composition__photo--p1"
-                      src="/static/images/pic22.jpg"
-                    />,
-                    <img
-                      alt="photo-2"
-                      className="c-image-composition__photo c-image-composition__photo--p2"
-                      src="/static/images/pic6.jpg"
-                    />,
-                    <img
-                      alt="photo-3"
-                      className="c-image-composition__photo c-image-composition__photo--p3"
-                      src="/static/images/pic20.jpg"
-                    />,
-                  ],
-                  "className": "c-image-composition",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "photo-1",
-                      "className": "c-image-composition__photo c-image-composition__photo--p1",
-                      "src": "/static/images/pic22.jpg",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "photo-2",
-                      "className": "c-image-composition__photo c-image-composition__photo--p2",
-                      "src": "/static/images/pic6.jpg",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "photo-3",
-                      "className": "c-image-composition__photo c-image-composition__photo--p3",
-                      "src": "/static/images/pic20.jpg",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
-                  },
-                ],
-                "type": "div",
-              },
               "type": "div",
             },
           ],

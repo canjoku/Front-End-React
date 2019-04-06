@@ -10,10 +10,10 @@ class Articles extends Component {
     return (
       <div className='c-articles'>
         <h1 className='c-articles__primary-heading'>Articles</h1>
-        <div className='g-grid__row'>
+        <div className='c-articles__posts-container'>
           { posts.map((post, index) => {
             return(
-              <div key={index} className='g-grid__col-1-of-3'>
+              <div key={index} className='c-articles__posts-container-item'>
                 <PostCard post={post}/>
               </div>
             )

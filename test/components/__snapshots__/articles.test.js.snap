@@ -35,10 +35,10 @@ ShallowWrapper {
           Articles
         </h1>,
         <div
-          className="g-grid__row"
+          className="c-articles__posts-container"
         >
           <div
-            className="g-grid__col-1-of-3"
+            className="c-articles__posts-container-item"
           >
             <PostCard
               post={
@@ -75,7 +75,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <div
-              className="g-grid__col-1-of-3"
+              className="c-articles__posts-container-item"
             >
               <PostCard
                 post={
@@ -88,7 +88,7 @@ ShallowWrapper {
               />
             </div>,
           ],
-          "className": "g-grid__row",
+          "className": "c-articles__posts-container",
         },
         "ref": null,
         "rendered": Array [
@@ -106,7 +106,7 @@ ShallowWrapper {
                   }
                 }
               />,
-              "className": "g-grid__col-1-of-3",
+              "className": "c-articles__posts-container-item",
             },
             "ref": null,
             "rendered": Object {
@@ -145,10 +145,10 @@ ShallowWrapper {
             Articles
           </h1>,
           <div
-            className="g-grid__row"
+            className="c-articles__posts-container"
           >
             <div
-              className="g-grid__col-1-of-3"
+              className="c-articles__posts-container-item"
             >
               <PostCard
                 post={
@@ -185,7 +185,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <div
-                className="g-grid__col-1-of-3"
+                className="c-articles__posts-container-item"
               >
                 <PostCard
                   post={
@@ -198,7 +198,7 @@ ShallowWrapper {
                 />
               </div>,
             ],
-            "className": "g-grid__row",
+            "className": "c-articles__posts-container",
           },
           "ref": null,
           "rendered": Array [
@@ -216,7 +216,7 @@ ShallowWrapper {
                     }
                   }
                 />,
-                "className": "g-grid__col-1-of-3",
+                "className": "c-articles__posts-container-item",
               },
               "ref": null,
               "rendered": Object {

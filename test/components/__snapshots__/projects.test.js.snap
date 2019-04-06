@@ -29,10 +29,10 @@ ShallowWrapper {
           </h2>
         </div>,
         <div
-          className="g-grid__row"
+          className="c-projects-section__projects-card-container"
         >
           <div
-            className="g-grid__col-1-of-3"
+            className="c-projects-section__projects-card-container-item"
           >
             <div
               className="c-projects-card"
@@ -101,7 +101,7 @@ ShallowWrapper {
             </div>
           </div>
           <div
-            className="g-grid__col-1-of-3"
+            className="projects-section__projects-card-container-item"
           >
             <div
               className="c-projects-card"
@@ -170,7 +170,7 @@ ShallowWrapper {
             </div>
           </div>
           <div
-            className="g-grid__col-1-of-3 "
+            className="c-projects-section__projects-card-container-item"
           >
             <div
               className="c-projects-card"
@@ -279,7 +279,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <div
-              className="g-grid__col-1-of-3"
+              className="c-projects-section__projects-card-container-item"
             >
               <div
                 className="c-projects-card"
@@ -348,7 +348,7 @@ ShallowWrapper {
               </div>
             </div>,
             <div
-              className="g-grid__col-1-of-3"
+              className="projects-section__projects-card-container-item"
             >
               <div
                 className="c-projects-card"
@@ -417,7 +417,7 @@ ShallowWrapper {
               </div>
             </div>,
             <div
-              className="g-grid__col-1-of-3 "
+              className="c-projects-section__projects-card-container-item"
             >
               <div
                 className="c-projects-card"
@@ -487,7 +487,7 @@ ShallowWrapper {
               </div>
             </div>,
           ],
-          "className": "g-grid__row",
+          "className": "c-projects-section__projects-card-container",
         },
         "ref": null,
         "rendered": Array [
@@ -561,7 +561,7 @@ ShallowWrapper {
                   </div>
                 </a>
               </div>,
-              "className": "g-grid__col-1-of-3",
+              "className": "c-projects-section__projects-card-container-item",
             },
             "ref": null,
             "rendered": Object {
@@ -1004,7 +1004,7 @@ ShallowWrapper {
                   </div>
                 </a>
               </div>,
-              "className": "g-grid__col-1-of-3",
+              "className": "projects-section__projects-card-container-item",
             },
             "ref": null,
             "rendered": Object {
@@ -1448,7 +1448,7 @@ ShallowWrapper {
                   </div>
                 </a>
               </div>,
-              "className": "g-grid__col-1-of-3 ",
+              "className": "c-projects-section__projects-card-container-item",
             },
             "ref": null,
             "rendered": Object {
@@ -1851,10 +1851,10 @@ ShallowWrapper {
             </h2>
           </div>,
           <div
-            className="g-grid__row"
+            className="c-projects-section__projects-card-container"
           >
             <div
-              className="g-grid__col-1-of-3"
+              className="c-projects-section__projects-card-container-item"
             >
               <div
                 className="c-projects-card"
@@ -1923,7 +1923,7 @@ ShallowWrapper {
               </div>
             </div>
             <div
-              className="g-grid__col-1-of-3"
+              className="projects-section__projects-card-container-item"
             >
               <div
                 className="c-projects-card"
@@ -1992,7 +1992,7 @@ ShallowWrapper {
               </div>
             </div>
             <div
-              className="g-grid__col-1-of-3 "
+              className="c-projects-section__projects-card-container-item"
             >
               <div
                 className="c-projects-card"
@@ -2101,7 +2101,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <div
-                className="g-grid__col-1-of-3"
+                className="c-projects-section__projects-card-container-item"
               >
                 <div
                   className="c-projects-card"
@@ -2170,7 +2170,7 @@ ShallowWrapper {
                 </div>
               </div>,
               <div
-                className="g-grid__col-1-of-3"
+                className="projects-section__projects-card-container-item"
               >
                 <div
                   className="c-projects-card"
@@ -2239,7 +2239,7 @@ ShallowWrapper {
                 </div>
               </div>,
               <div
-                className="g-grid__col-1-of-3 "
+                className="c-projects-section__projects-card-container-item"
               >
                 <div
                   className="c-projects-card"
@@ -2309,7 +2309,7 @@ ShallowWrapper {
                 </div>
               </div>,
             ],
-            "className": "g-grid__row",
+            "className": "c-projects-section__projects-card-container",
           },
           "ref": null,
           "rendered": Array [
@@ -2383,7 +2383,7 @@ ShallowWrapper {
                     </div>
                   </a>
                 </div>,
-                "className": "g-grid__col-1-of-3",
+                "className": "c-projects-section__projects-card-container-item",
               },
               "ref": null,
               "rendered": Object {
@@ -2826,7 +2826,7 @@ ShallowWrapper {
                     </div>
                   </a>
                 </div>,
-                "className": "g-grid__col-1-of-3",
+                "className": "projects-section__projects-card-container-item",
               },
               "ref": null,
               "rendered": Object {
@@ -3270,7 +3270,7 @@ ShallowWrapper {
                     </div>
                   </a>
                 </div>,
-                "className": "g-grid__col-1-of-3 ",
+                "className": "c-projects-section__projects-card-container-item",
               },
               "ref": null,
               "rendered": Object {

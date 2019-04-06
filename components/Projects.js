@@ -9,8 +9,8 @@ class Projects extends Component {
             Projects
           </h2>
         </div>
-        <div className='g-grid__row'>
-          <div className='g-grid__col-1-of-3'>
+        <div className='c-projects-section__projects-card-container'>
+          <div className='c-projects-section__projects-card-container-item'>
             <div className='c-projects-card'>
               <div className='c-projects-card__side c-projects-card__side--front'>
                 <div className='c-projects-card__picture c-projects-card__picture--1'>&nbsp;</div>
@@ -39,7 +39,7 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          <div className='g-grid__col-1-of-3'>
+          <div className='projects-section__projects-card-container-item'>
             <div className='c-projects-card'>
               <div className='c-projects-card__side c-projects-card__side--front'>
                 <div className='c-projects-card__picture c-projects-card__picture--2'>&nbsp;</div>
@@ -68,7 +68,7 @@ class Projects extends Component {
               </a>
             </div>
           </div>
-          <div className='g-grid__col-1-of-3 '>
+          <div className='c-projects-section__projects-card-container-item'>
             <div className='c-projects-card'>
               <div className='c-projects-card__side c-projects-card__side--front'>
                 <div className='c-projects-card__picture c-projects-card__picture--3'>&nbsp;</div>
