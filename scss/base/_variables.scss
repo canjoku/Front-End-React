@@ -17,12 +17,35 @@
   --dark-grey: #777;
   --dark-grey2: #999;
   --dark-grey3: #333;
-
-
-  //GRID
-  --grid-width: 71.25rem;
-  --grid-width-small: 31.25rem;
-  --vertical-gutter: 5rem;
-  --vertical-gutter-small: 3.125rem;
-  --horizontal-gutter: 3.75rem;
 }
+
+
+
+
+/* MAIN VARIABLES FOR CUSTOMIZATION */
+$numOfItems: 4;
+$navAT: 1s;
+$textDelayStep: 0.1s;
+/* -------------------------------- */
+
+$font: Helvetica, Arial, sans-serif;
+
+$btnSize: 90px;
+$lineW: 28px;
+$lineH: 4px;
+$linesGap: 10px;
+$linesTotalH: $lineH*2 + $linesGap;
+$btnHorPad: ($btnSize - $lineW) / 2;
+$btnVertPad: ($btnSize - $linesTotalH) / 2;
+
+
+$itemsLeftPad: 20px;
+$itemsRightPad: $itemsLeftPad + $btnSize;
+$itemWidth: 70px;
+$navItemsWidth: $itemsLeftPad + $itemsRightPad + $itemWidth * $numOfItems;
+
+$textAT: $navAT - $textDelayStep * ($numOfItems - 1);
+$textFadeAT: 0.2s;
+$cub: cubic-bezier(.48,.43,.29,1.3);
+$backCub: cubic-bezier(0.49,-0.3,.68,1.23);
+$textCub: cubic-bezier(.48,.43,.7,2.5);

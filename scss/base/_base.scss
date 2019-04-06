@@ -1,15 +1,26 @@
-* {
-  margin : 0;
-  padding : 0;
+*, *:before, *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
+$lightBlue: darken(#EAFBFF, 50%);
+$darkBlue: #208FF9;
 
 body {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.7;
-  color:var(--dark-grey);
-  padding: 0.7rem;
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    height: 50%;
+    background: $lightBlue;
+  }
+
+  &:after {
+    background: $darkBlue;
+  }
 }

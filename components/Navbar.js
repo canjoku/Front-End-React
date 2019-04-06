@@ -4,23 +4,40 @@ import Link from 'next/link'
 class Navbar extends Component {
   render () {
     return (
-      <div className='c-navbar'>
-        <input type='checkbox' className='c-navbar__checkbox' id='nav-toggle'/>
-        <label for='nav-toggle' className='c-navbar__button' >
-          <span className='c-navbar__icon'></span>
-        </label>
-        <div className='c-navbar__background'></div>
-        <nav className='c-navbar__nav'>
-          <ul className='c-navbar__list'>
-            <li className='c-navbar__item'><Link href='/index'><a className='c-navbar__link'>Home</a></Link></li>
-            <li className='c-navbar__item'><Link href='/about'><a className='c-navbar__link'>About<a/></a></Link></li>
-            <li className='c-navbar__item'><Link href='/projects'><a className='c-navbar__link'>Projects</a></Link></li>
-            <li className='c-navbar__item'><Link href='/articles'><a className='c-navbar__link'>Articles</a></Link></li>
+      <nav className="nav">
+        <input type="checkbox" class="nav__cb" id="menu-cb"/>
+        <div className="nav__content">
+          <ul className="nav__items">
+            <li className="nav__item">
+              <span className="nav__item-text">
+                <Link href='/index'><a>Home</a></Link>
+              </span>
+            </li>
+            <li className="nav__item">
+              <span className="nav__item-text">
+              <Link href='/about'><a>About</a></Link>
+              </span>
+            </li>
+            <li className="nav__item">
+              <span className="nav__item-text">
+                <Link href='/projects'><a>Projects</a></Link>
+              </span>
+            </li>
+            <li className="nav__item">
+              <span className="nav__item-text">
+                <Link href='/articles'><a>Articles</a></Link>
+              </span>
+            </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+        <label className="nav__btn" for="menu-cb"></label>
+      </nav>
     )
   }
 }
 
 export default Navbar
+
+
+
+
