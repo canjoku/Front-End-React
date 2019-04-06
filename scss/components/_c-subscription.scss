@@ -37,11 +37,6 @@
       font-size: 1.2rem;
       color: #FFF;
       padding: 0.6rem 0.6rem;
-
-      @include response(tab-port) {
-        height: 1.8rem;
-        font-size: 0.9rem;
-      }
     }
 
     &--button {

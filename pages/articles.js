@@ -33,9 +33,7 @@ class ArticlesPage extends Component {
       return(
         <React.Fragment>
           <Navbar />
-          <div className='p-articles-page__top-space'></div>
           <Articles posts = { posts }/>
-          <div className='p-articles-page__bottom-space'></div>
           <Footer />
         </React.Fragment>
       )
