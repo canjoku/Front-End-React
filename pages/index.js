@@ -3,11 +3,9 @@ import { Query, Mutation } from 'react-apollo'
 import gql from 'graphql-tag'
 import withData from '../lib/withData'
 
-import About from '../components/About'
-import Articles from '../components/Articles'
-import Projects from '../components/Projects'
 import Layout from '../components/Layout'
 import Skeleton from '../components/Skeleton'
+import Main from '../components/Main'
 
 
 class Index extends Component {
@@ -41,9 +39,7 @@ class Index extends Component {
         <Mutation mutation={this.createSubscriber} >
         {(newSubscriber) => {
           return <Layout {...this.props} mutation={newSubscriber}>
-            <About />
-            <Articles posts = { posts }/>
-            <Projects />
+            <Main />
           </Layout>
         }}
         </Mutation>

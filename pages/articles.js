@@ -3,8 +3,6 @@ import { Query, Mutation } from 'react-apollo'
 import gql from 'graphql-tag'
 import withData from '../lib/withData'
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import Articles from '../components/Articles'
 import Layout from '../components/Layout'
 import Skeleton from '../components/Skeleton'
@@ -31,11 +29,9 @@ class ArticlesPage extends Component {
       if (loading) return <Layout><Skeleton count={3}/></Layout>
       if (error) return <Layout><p>Error retrieving Data ... </p></Layout>
       return(
-        <div className='wrapper'>
-          <Navbar />
+        <Layout>
           <Articles posts = { posts }/>
-          <Footer />
-        </div>
+        </Layout>
       )
     }}
     </Query>

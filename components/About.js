@@ -11,46 +11,6 @@ class About extends Component {
           <li>Ruby</li>
           <li>GraphQl</li>
         </ul>
-
-        <h1>About me</h1>
-        <h2>I AM</h2>
-        <ul>
-          <li>ReactJS</li>
-          <li>Ruby</li>
-          <li>GraphQl</li>
-        </ul>
-
-        <h1>About me</h1>
-        <h2>I AM</h2>
-        <ul>
-          <li>ReactJS</li>
-          <li>Ruby</li>
-          <li>GraphQl</li>
-        </ul>
-
-        <h1>About me</h1>
-        <h2>I AM</h2>
-        <ul>
-          <li>ReactJS</li>
-          <li>Ruby</li>
-          <li>GraphQl</li>
-        </ul>
-
-        <h1>About me</h1>
-        <h2>I AM</h2>
-        <ul>
-          <li>ReactJS</li>
-          <li>Ruby</li>
-          <li>GraphQl</li>
-        </ul>
-
-        <h1>About me</h1>
-        <h2>I AM</h2>
-        <ul>
-          <li>ReactJS</li>
-          <li>Ruby</li>
-          <li>GraphQl</li>
-        </ul>
       </>
     )
   }

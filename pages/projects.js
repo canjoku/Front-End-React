@@ -1,19 +1,15 @@
 import { Component } from 'react'
 import Projects from '../components/Projects'
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
+import Layout from '../components/Layout'
 
 
 
 class ProjectsPage extends Component {
   render () {
     return (
-      <div className='wrapper'>
-        <Navbar/>
+      <Layout>
         <Projects />
-        <Footer />
-      </div>
+      </Layout>
     )
   }
 }

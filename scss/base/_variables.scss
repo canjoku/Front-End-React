@@ -1,22 +1,7 @@
-:root {
-  //COLORS
-  --light-blue-rgba: rgba(37, 113, 184, 0.726);
-  --dark-blue-rgba: rgba(85, 67, 250, 0.534);
-  --cornflower-blue: #79A9F5;
-  --baby-blue: #C2E2F5;
-  --light-grey-1: #F7F7F7;
-  --light-grey-2: #EEEEEE;
-  --black: #000;
-  --white: #FFFFFF;
-  --light-yellow: #FFB900;
-  --dark-yellow: #FF7730;
-  --dark-blue: #5643fA;
-  --light-blue: #2998FF;
-  --light-green: #7ED56F;
-  --dark-green: #28B485;
-  --dark-grey: #777;
-  --dark-grey2: #999;
-  --dark-grey3: #333;
-}
+$primary-color: #444;
+$secondary-color: #eece1a;
+$show-home-image: true;
+$home-image: url(/static/images/pic12.jpg);
+$background-opacity: 0.9;
 
 

@@ -14,11 +14,11 @@ class Layout extends Component {
     return (
       <div>
         <Head>
-          <title>Chidi Njoku</title>
+          <title>Welcome To My Portfolio</title>
           <link rel='stylesheet' href='/_next/static/style.css' />
           <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         </Head>
-        <div className='wrapper'>
+        <div>
           <Header mutation={mutation}/>
             { this.props.children }
           <Footer />

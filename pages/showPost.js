@@ -8,8 +8,6 @@ import Layout from '../components/Layout'
 import PostSection from '../components/PostSection'
 import CommentsSection from '../components/CommentsSection'
 import Skeleton from '../components/Skeleton'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 
 
 class ShowPostPage extends Component {
@@ -51,7 +49,6 @@ class ShowPostPage extends Component {
       if (error) return <Layout><p>Error :({console.log(error)}</p></Layout>
       return(
         <div className='wrapper'>
-          <Navbar />
           <PostSection post={post}/>
           <Mutation mutation={this.createComment}
             update={(cache, { data: { newComment } }) => {
@@ -67,7 +64,6 @@ class ShowPostPage extends Component {
               return <CommentsSection comments={post.comments} slug={this.props.url.query.slug} mutation={newComment} />
             }}
           </Mutation>
-          <Footer />
         </div>
       )
     }}
