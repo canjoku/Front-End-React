@@ -6,42 +6,31 @@
 
   &__button {
     background-color: $secondary-color;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     position: fixed;
-    top: 2.5rem;
-    right: 2.5rem;
+    top: 1.5rem;
+    right: 1.5rem;
     border-radius: 50%;
     z-index: 3000;
     box-shadow: 0 0.6rem 2rem rgba(black, .1);
     text-align: center;
     cursor: pointer;
 
-    @include mediaMd {
-      height: 2.5rem;
-      width: 2.5rem;
-      top: 1.5rem;
-      right: 1.5rem;
-    }
+   
    }
 
   &__background {
-    height: 2.75rem;
-    width: 2.75rem;
+    height: 1.75rem;
+    width: 1.75rem;
     border-radius: 50%;
     position: fixed;
-    top: 4rem;
-    right: 4rem;
+    top: 2rem;
+    right: 2rem;
     background-image: radial-gradient(($primary-color), ($secondary-color));
     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
     z-index: 1000;
 
-    @include mediaMd {
-      height: 1.75rem;
-      width: 1.75rem;
-      top: 2rem;
-      right: 2rem;
-    }
   }
 
   &__nav {
@@ -74,8 +63,8 @@
     &:link,
     &:visited {
       display: inline-block;
-      font-size: 2rem;
-      font-weight: 500;
+      font-size: 1rem;
+      font-weight: 300;
       color: var(--black);
       padding: 0.4rem 1.25rem;
       text-decoration: none;
@@ -84,11 +73,6 @@
       background-size: 230%;
 
       transition: all .4s;
-
-      @include mediaMd {
-       font-size: 1rem;
-       font-weight: 300;
-      }
     }
 
     &:hover,
@@ -100,15 +84,7 @@
   }
 
   &__checkbox:checked ~ &__background {
-    transform: scale(100);
-
-    @include mediaMd {
-      transform: scale(70);
-     }
-
-     @include mediaSm {
-      transform: scale(60);
-    }
+    transform: scale(80);
     
   }
 
@@ -120,22 +96,18 @@
 
   &__icon {
     position: relative;
-    margin-top: 2.2rem;
+    margin-top: 1.2rem;
 
-    @include mediaMd {
-     margin-top: 1.2rem;
-    }
+  
     &,
     &::before,
     &::after {
-      width: 2em;
+      width: 1em;
       height: 0.1rem;
       background-color: $white-color;
       display: inline-block;
 
-      @include mediaMd {
-        width: 1em;
-      }
+     
     }
 
     &::before,
