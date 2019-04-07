@@ -36,15 +36,15 @@ class CommentsSection extends Component {
       )
     } else {
       return(
-        <div className='c-comments-section'>
-          <p className='c-comments-section__cta'>If you would like to leave a comment, then please login</p>
+        <main>
+          <p>If you would like to leave a comment, then please login</p>
           <a href='#' className='c-comments-section__cta-link' onClick={this.login}>Login</a>
           {comments.map((comment, index) => {
             return(
               <CommentCard key={index} comment={comment} />
             )
           })}
-        </div>
+        </main>
       )
     }
   }

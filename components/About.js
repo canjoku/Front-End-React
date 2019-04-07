@@ -20,27 +20,33 @@ class About extends Component {
           </div>
 
           <div className="job job-1">
-            <h3>BackEnd</h3>
-            <h6>Full Stack Developer</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
-              expedita dolor necessitatibus deserunt nemo.
-            </p>
+            <h3>BackEnd skills</h3>
+            <ul>
+              <li>Experience with Ruby on Rails</li>
+              <li>Solid understanding of SQL</li>
+              <li>Writing Unit, Integration and Feature specs</li>
+              <li>Using background workers and service classes</li>
+            </ul>
           </div>
 
           <div className="job job-2">
-            <h3>FrontEnd</h3>
-            <h6>Front End Developer</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
-              expedita dolor necessitatibus deserunt nemo.
-            </p>
+            <h3>FrontEnd skills</h3>
+            <ul>
+              <li>ReactJS</li>
+              <li>Higher Order Components</li>
+              <li>SCSS/SASS, BEM implementation</li>
+              <li>Experience with (TDD), specifically Jest/Enzyme</li>
+            </ul>
           </div>
 
           <div className="job job-3">
-            <h3>Devops</h3>
-            <h6>Graphic Designer</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt porro dolores
-              expedita dolor necessitatibus deserunt nemo.
-            </p>
+            <h3>Devop skills</h3>
+            <ul>
+              <li>Linux Fundamentals And Scripting</li>
+              <li>Experince with AWS and Docker containers</li>
+              <li>Experience with conitnuous integration</li>
+              <li>Infrastructure as Code (IAC)</li>
+            </ul>
           </div>
         </div>
       </main>
