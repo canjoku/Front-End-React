@@ -8,7 +8,7 @@ class Main extends Component {
       <main id="home">
         <h1 className="lg-heading">
           Chidi
-          <span className="text-secondary">Njoku</span>
+          <span className="text-secondary"> Njoku</span>
         </h1>
         <h2 className="sm-heading">
           Full Stack Web Developer
