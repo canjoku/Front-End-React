@@ -47,8 +47,8 @@ class ShowPostPage extends Component {
     {({ loading, error, data: { post } }) => {
       if (loading) return <Layout><Skeleton count={5} /></Layout>
       if (error) return <Layout><p>Error :({console.log(error)}</p></Layout>
-      return(
-        <div className='wrapper'>
+      return(<Layout>
+        <div>
           <PostSection post={post}/>
           <Mutation mutation={this.createComment}
             update={(cache, { data: { newComment } }) => {
@@ -65,6 +65,7 @@ class ShowPostPage extends Component {
             }}
           </Mutation>
         </div>
+        </Layout>
       )
     }}
     </Query>
