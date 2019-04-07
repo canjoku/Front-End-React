@@ -6,9 +6,9 @@ import Link from 'next/link'
 class Footer extends Component {
   render () {
     return (
-        <footer>
-          <p>2019 Chidi Njoku</p>
-        </footer>
+      <footer id="main-footer">
+        Copyright &copy; 2019
+      </footer>
     )
   }
 }
