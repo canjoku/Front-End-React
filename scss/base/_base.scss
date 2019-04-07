@@ -1,26 +1,51 @@
-*, *:before, *:after {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
 }
 
-html, body {
-  height: 100%;
+html {
+  font-family: "Josephine Sans", sans-serif;
 }
-
-$lightBlue: darken(#EAFBFF, 50%);
-$darkBlue: #208FF9;
 
 body {
-  &:before,
-  &:after {
-    content: "";
-    display: block;
-    height: 50%;
-    background: $lightBlue;
-  }
+  width: 100%;
+  background-image: url("/static/images/pic12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  &:after {
-    background: $darkBlue;
-  }
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+li {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
 }

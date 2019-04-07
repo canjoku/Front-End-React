@@ -31,11 +31,11 @@ class ArticlesPage extends Component {
       if (loading) return <Layout><Skeleton count={3}/></Layout>
       if (error) return <Layout><p>Error retrieving Data ... </p></Layout>
       return(
-        <React.Fragment>
+        <div className='wrapper'>
           <Navbar />
           <Articles posts = { posts }/>
           <Footer />
-        </React.Fragment>
+        </div>
       )
     }}
     </Query>

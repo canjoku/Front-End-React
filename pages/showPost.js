@@ -50,7 +50,7 @@ class ShowPostPage extends Component {
       if (loading) return <Layout><Skeleton count={5} /></Layout>
       if (error) return <Layout><p>Error :({console.log(error)}</p></Layout>
       return(
-        <React.Fragment>
+        <div className='wrapper'>
           <Navbar />
           <PostSection post={post}/>
           <Mutation mutation={this.createComment}
@@ -68,7 +68,7 @@ class ShowPostPage extends Component {
             }}
           </Mutation>
           <Footer />
-        </React.Fragment>
+        </div>
       )
     }}
     </Query>

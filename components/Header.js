@@ -7,10 +7,10 @@ class Header extends Component {
     const { mutation } = this.props
     return (
       <div>
-      <Navbar />
-      <header>
+        <Navbar />
+        <div className='c-header'>
           <SubscriptionForm mutation={mutation}/>
-      </header>
+        </div>
       </div>
     )
   }

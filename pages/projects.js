@@ -9,11 +9,11 @@ import Footer from '../components/Footer';
 class ProjectsPage extends Component {
   render () {
     return (
-      <React.Fragment>
+      <div className='wrapper'>
         <Navbar/>
         <Projects />
         <Footer />
-      </React.Fragment>
+      </div>
     )
   }
 }

@@ -6,11 +6,11 @@ import Navbar from '../components/Navbar';
 class AboutPage extends Component {
   render () {
     return (
-      <React.Fragment>
+      <div className='wrapper'>
         <Navbar />
         <About />
         <Footer />
-      </React.Fragment>
+      </div>
     )
   }
 }
