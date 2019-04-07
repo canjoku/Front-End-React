@@ -94,13 +94,22 @@
     &:hover,
     &:active {
       background-position: 100%;
-      color: var(--dark-green);
+      color: $primary-color;
     }
 
   }
 
   &__checkbox:checked ~ &__background {
-    transform: scale(80);
+    transform: scale(100);
+
+    @include mediaMd {
+      transform: scale(70);
+     }
+
+     @include mediaSm {
+      transform: scale(60);
+    }
+    
   }
 
   &__checkbox:checked ~ &__nav {
