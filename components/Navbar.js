@@ -4,41 +4,21 @@ import Link from 'next/link'
 class Navbar extends Component {
   render () {
     return (
-      <header>
-        <div className="menu-btn">
-          <div className="btn-line"></div>
-          <div className="btn-line"></div>
-          <div className="btn-line"></div>
-        </div>
-
-        <div className="menu">
-          <div className="menu-branding">
-            <div className="portrait"></div>
-          </div>
-          <ul className="menu-nav">
-            <li className="nav-item current">
-              <a class="nav-link">
-                <Link href='/index'>Home</Link>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a class="nav-link">
-                <Link href='/about'>About Me</Link>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="work.html" class="nav-link">
-                <Link href='/projects'>My Work</Link>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a class="nav-link">
-                <Link href='/articles'>Articles</Link>
-              </a>
-            </li>
+      <div className='c-navbar'>
+        <input type='checkbox' className='c-navbar__checkbox' id='nav-toggle'/>
+        <label for='nav-toggle' className='c-navbar__button' >
+          <span className='c-navbar__icon'></span>
+        </label>
+        <div className='c-navbar__background'></div>
+        <nav className='c-navbar__nav'>
+          <ul className='c-navbar__list'>
+            <li className='c-navbar__item'><Link href='/index'><a className='c-navbar__link'>Home</a></Link></li>
+            <li className='c-navbar__item'><Link href='/about'><a className='c-navbar__link'>About<a/></a></Link></li>
+            <li className='c-navbar__item'><Link href='/projects'><a className='c-navbar__link'>Projects</a></Link></li>
+            <li className='c-navbar__item'><Link href='/articles'><a className='c-navbar__link'>Articles</a></Link></li>
           </ul>
-        </div>
-      </header>
+        </nav>
+      </div>
     )
   }
 }
