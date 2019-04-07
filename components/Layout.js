@@ -16,7 +16,7 @@ class Layout extends Component {
         <Head>
           <title>Welcome To My Portfolio</title>
           <link rel='stylesheet' href='/_next/static/style.css' />
-          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <div id='bg-img'>
           <Header mutation={mutation}/>

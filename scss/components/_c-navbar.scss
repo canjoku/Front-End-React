@@ -29,14 +29,17 @@
     transition: 0.5s;
     @include mediaLg {
       padding-right: 1.5rem;
+      font-size: 1.4rem;
     }
   
     @include mediaMd {
       padding-right: 1.5rem;
+      font-size: 1.2rem;
     }
   
     @include mediaSm{
       padding-right: 0.8rem;
+      font-size: 1rem;
     }
   
     &:hover {
