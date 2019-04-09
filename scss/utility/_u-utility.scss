@@ -1,0 +1,31 @@
+.u-center {
+  @include mediaMd {
+      flex: 1;
+  }
+}
+
+
+.u-add-flex {
+  @include mediaMd{
+    flex: 1;
+  }
+  
+}
+
+.u-add-padding-right {
+  @include mediaMd {
+    padding-right: 10rem;
+  }
+}
+
+.u-first {
+    @include mediaMd {
+        order: 1;
+    }
+}
+
+.u-second {
+    @include mediaMd {
+        order: 2;
+    }
+}

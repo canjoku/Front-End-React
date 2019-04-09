@@ -3,57 +3,40 @@ import { Component } from 'react'
 class Projects extends Component {
   render () {
     return (
-      <main>
-        <h1 className="lg-heading">My<span class="text-secondary">Projects</span></h1>
-        <h2 className="sm-heading">Some of my projects...</h2>
+      <>
+        <section className='c-project__my-ruby-project u-between-sec'>
+          <h1 className='u-custom-font'>Ruby on Rails</h1>
+          <h2 className='u-custom-font-secondary u-between-sec-color'>Project</h2>
+        </section>
 
-        <div className="about-info">
-
-          <div className="job job-1">
-            <h3>BACKEND GRAPHQL API</h3>
-            <h6>Ruby on Rails</h6>
-            <p>A full stack RESTful CRUD application using the MVC pattern. This project implemented a blog, an admin panel and a graphql api.
+        <section className='c-project__my-ruby-project-summary' id='c-project__my-ruby-project-summary'>
+          <div className='c-project__container'>
+            <h1 className='u-custom-font'>Ruby</h1>
+            <p>A full stack RESTful CRUD application using the MVC pattern.
+              <a href='#' className='u-btn u-btn-info'>Learn More</a>
             </p>
-              <ul>
-                <li>Testing: RSpec/Capybara</li>
-                <li>Continuous Integration</li>
-                <li>Amazon Web Services</li>
-                <li>Containerisation</li>
-                <li>GraphQL Implementation</li>
-              </ul>
-              <a href='https://github.com/affinity-digital-ltd/Tonys-blog' target='blank'>See Github</a>
           </div>
+        </section>
 
-          <div className="job job-2">
-            <h3>FrontEnd JS APP</h3>
-            <h6>Server Side Rendered ReactJS</h6>
-            <p>Server Side Rendered React application using NextJS.</p>
-              <ul>
-                <li>Ruby GraphQL</li>
-                <li>Node 10, NextJS, ReactJS</li>
-                <li>Jest/Enzyme Tests</li>
-                <li>Apollo Implementation</li>
-                <li>Auth0</li>
-                <li>Yarn, Webpack</li>
-              </ul>
-              <a href='https://github.com/affinity-digital-ltd/TBlog-FrontEnd' target='blank'>See Github</a>
-          </div>
+        <section className='c-project__my-react-project u-between-sec'>
+          <h1 className='u-custom-font'>ReactJS</h1>
+          <h2 className='u-custom-font-secondary u-between-sec-color'>Project</h2>
+        </section>
 
-          <div className="job job-3">
-            <h3>Commercial</h3>
-            <h6>&#64;Shift Commerce, Leeds</h6>
-            <p>Collaborated with a team of seasoned developers at Shift Commerce to get the new Shift reference site production ready.</p>
-              <ul>
-                <li>Production ready code</li>
-                <li>Stand Ups</li>
-                <li>Commercial Team Experience</li>
-                <li>Web platform implementation</li>
-              </ul>
+        <section className='c-project__my-react-project-summary' id='c-project__my-react-project-summary'>
+          <div className='c-project__container'>
+            <h1 className='u-custom-font'>ReactJS</h1>
+            <p>
+              A server-side rendered ReactJS application.
+              <a href='#' className='u-btn u-btn-info'>Learn More</a>
+            </p>
           </div>
-        </div>
-      </main>
+        </section>
+      </>
     )
   }
 }
 
 export default Projects
+
+

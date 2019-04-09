@@ -1,23 +1,23 @@
 @import "./mixins/m-mixins";
-@import './base/variables.scss';
 @import './base/base.scss';
 
 
 
-@import "./utility/u-bottom-margin-big";
-@import "./utility/u-bottom-margin-medium";
-@import "./utility/u-bottom-margin-small";
-@import "./utility/u-center-text";
-
-
-@import "./pages/p-articles-page";
-
 @import "./fonts/fonts";
 @import "./fonts/icon-fonts.scss";
 
-@import "./keyframes/k-moveInLeft";
-@import "./keyframes/k-moveInRight";
+@import "./utility/u-main-btn";
+@import "./utility/-u-btn.scss";
+@import "./utility/u-btn-info";
+@import "./utility/u-custom-font";
+@import "./utility/u-custom-font-secondary";
+@import "./utility/u-between-sec";
+@import "./utility/u-between-sec-color";
+@import "./utility/u-utility";
 
+@import "./keyframes/k-fade-in";
+@import "./keyframes/k-fade-up";
+@import "./keyframes/k-fade";
 
 @import "./components/s-skeleton";
 @import "./components/c-header";
@@ -25,16 +25,15 @@
 @import "./components/c-about";
 @import "./components/c-post-card";
 @import "./components/c-articles";
-@import "./components/c-projects-section";
+@import "./components/c-projects";
 @import "./components/c-footer";
 @import "./components/c-navbar";
 @import "./components/c-post-section";
 @import "./components/c-comments-section";
 @import "./components/c-comments-form";
-@import "./components//c-image-composition";
-@import "./components//c-projects-card";
-@import "./components/c-main";
+@import "./components/c-layout";
+@import "./components/c-front";
+@import "./components/c-image-group";
 
 
 
-@import "./media/mobile";

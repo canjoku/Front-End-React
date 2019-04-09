@@ -2,13 +2,23 @@ import { Component } from 'react'
 import Link from 'next/link'
 
 class Navbar extends Component {
+  
+  constructor(props) {
+    super(props)
+  }
+
   render () {
     return (
-      <nav className='c-navbar'>
-          <Link href='/index'><a className='c-navbar__link'>Home</a></Link>
-          <Link href='/about'><a className='c-navbar__link'>About</a></Link>
-          <Link href='/projects'><a className='c-navbar__link'>Projects</a></Link>
-          <Link href='/articles'><a className='c-navbar__link'>Articles</a></Link>
+      <nav className='c-nav'>
+      <Link href='/index'><a className='c-nav__logo'>Chidi</a></Link>
+        <div className={`${this.props.overlay} ${this.props.menuOpen}`}>
+          <ul>
+            <li><Link href='/index'><a>Home</a></Link></li>
+            <li><Link href='/about'><a>About</a></Link></li>
+            <li><Link href='/projects'><a>Projects</a></Link></li>
+            <li><Link href='/articles'><a>Articles</a></Link></li>
+          </ul>
+        </div> 
       </nav>
     )
   }

@@ -1,9 +1,133 @@
 header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom,rgba(0,0,0,.9), transparent),
+            url('/static/images/pic12.jpg') bottom no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  @include mediaMd {
+    background-attachment: fixed;
+  }
+}
+
+.c-header {
+
+  &__main-text {
+    line-height: 0;
+    margin: auto;
+    color: var(--main-white);
+    user-select: none;
+
+    h1 {
+      font-family: var(--main-font-family);
+      color: var(--main-font-color);
+      font-size: 4rem;
+      font-weight: 100;
+      margin-bottom: 5rem;
+
+      @include mediaMd {
+        transform: translateY(4rem);
+        opacity: 0;
+        animation: .5s fadeUp .5s forwards;
+      }
+    }
+
+    h2 {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-right: -5px;
+      font-size: 2rem;
+      line-height: 1;
+      position: relative;
+
+      @include mediaMd {
+        transform: scale(2);
+        opacity: 0;
+        animation: fadeIn .5s forwards;
+      }
+    }
+
+    h2::before, h2::after {
+      content: "";
+      width: 5rem;
+      height: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+      background-color: var(--main-white);
+      border-radius: 8px;
+    }
+
+    h2::before {
+      left: -6rem
+    }
+
+    h2::after {
+      right: -6rem;
+    }
+  }
+
+  &__menu {
+    padding: 2rem 2.5rem;
     position: fixed;
-    z-index: 2;
-    width: 100%;
+    top: 3rem;
+    right: 3rem;
+    background-color: rgba(0,0,0,.5);
+    z-index: 999;
+    border-radius: 3px;
+    cursor: pointer;
+
+    .c-header__bar,
+    .c-header__bar::before,
+    .c-header__bar::after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 4rem;
+      background-color: var(--main-white);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      transition: 650ms;
+
+      @include mediaMd {
+        display: none;
+      }
+    }
+
+    .c-header__bar::before {
+      top: -2rem;
+    }
+
+    .c-header__bar::after {
+      top: 2rem;
+    }
   }
-  
-  .text-secondary {
-    color: $secondary-color;
+
+  &__active {
+
+    .c-header__bar {
+      background-color: transparent;
+    }
+
+    .c-header__bar::before {
+      transform: rotate(45deg);
+    }
+
+    .c-header__bar::after {
+      transform: rotate(-45deg);
+    }
+
+    .c-header__bar::before,
+    .c-header__bar::after {
+      top: 0;
+    }
   }
+
+}
+

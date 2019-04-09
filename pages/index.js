@@ -5,7 +5,8 @@ import withData from '../lib/withData'
 
 import Layout from '../components/Layout'
 import Skeleton from '../components/Skeleton'
-import Main from '../components/Main'
+import About from '../components/About'
+import Projects from '../components/Projects'
 
 
 class Index extends Component {
@@ -39,7 +40,8 @@ class Index extends Component {
         <Mutation mutation={this.createSubscriber} >
         {(newSubscriber) => {
           return <Layout {...this.props} mutation={newSubscriber}>
-            <Main />
+            <About />
+            <Projects />
           </Layout>
         }}
         </Mutation>

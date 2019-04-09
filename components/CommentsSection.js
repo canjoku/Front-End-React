@@ -36,7 +36,7 @@ class CommentsSection extends Component {
       )
     } else {
       return(
-        <main>
+        <section>
           <p>If you would like to leave a comment, then please login</p>
           <a href='#' className='c-comments-section__cta-link' onClick={this.login}>Login</a>
           {comments.map((comment, index) => {
@@ -44,7 +44,7 @@ class CommentsSection extends Component {
               <CommentCard key={index} comment={comment} />
             )
           })}
-        </main>
+        </section>
       )
     }
   }

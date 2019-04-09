@@ -18,7 +18,7 @@ class Layout extends Component {
           <link rel='stylesheet' href='/_next/static/style.css' />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
-        <div id='bg-img'>
+        <div className='c-layout'>
           <Header mutation={mutation}/>
             { this.props.children }
           <Footer />

@@ -1,40 +1,58 @@
-.about-info {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-areas:
-      'bioimage bio bio'
-      'job1 job2 job3';
-    grid-template-columns: repeat(3, 1fr);
-  
-    .bio-image {
-      width: 70%;
-      grid-area: bioimage;
-      margin: auto;
-      border-radius: 20%;
-      border: $secondary-color 3px solid;
+.c-about {
+
+  &__pic {
+    width: 100%;
+    min-height: 30rem;
+    background: url('/static/images/pic20.jpg') center no-repeat;
+    background-size: cover;  
+
+    @include mediaMd {
+      min-height: 40rem;
     }
-  
-    .bio {
-      grid-area: bio;
-      font-size: 1.5rem;
-    }
-  
-    .job-1 {
-      grid-area: job1;
-    }
-  
-    .job-2 {
-      grid-area: job2;
-    }
-  
-    .job-3 {
-      grid-area: job3;
-    }
-  
-    .job {
-      background: lighten($primary-color, 5);
-      padding: 0.5rem;
-      border-bottom: $secondary-color 5px solid;
+  }
+
+  &__pic2 {
+    width: 100%;
+    min-height: 30rem;
+    background: url('/static/images/pic38.jpg') center no-repeat;
+    background-size: cover;  
+
+    @include mediaMd {
+      min-height: 40rem;
     }
   }
   
+  &__container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+    @include mediaMd {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  &__my-backend {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+                url('/static/images/close-up-code.jpg') center no-repeat;
+    background-size: cover;
+  }
+
+  &__my-back-end-skills {
+
+  }
+
+  &__my-front-end {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+                url('/static/images/web.jpg') center no-repeat;
+    background-size: cover;
+  }
+
+  &__my-front-end-skills {
+    
+  }
+}
