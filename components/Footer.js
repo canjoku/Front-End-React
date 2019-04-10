@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className='c-footer__texts'>
-          <h4>My Work</h4>
+          <h4>Links</h4>
           <div className='c-footer__text'>
             <h5><a href='#c-project__my-ruby-project-summary'>Projects</a> <br></br>
             <Link href='/articles#post-cards'><a>Articles</a></Link>
