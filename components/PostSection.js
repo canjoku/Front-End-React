@@ -7,7 +7,7 @@ class PostSection extends Component {
     const { body, createdAt, title} = this.props.post
     return (
       <section>
-        <div className='c-post-section'>
+        <div className='c-post-section' id={title}>
           <h1 className='c-post-section__primary-heading'>{title}</h1>
           <p classsName='c-post-section__body'><Markdown>{body}</Markdown></p>
         </div>

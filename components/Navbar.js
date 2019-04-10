@@ -14,9 +14,9 @@ class Navbar extends Component {
         <div className={`${this.props.overlay} ${this.props.menuOpen}`}>
           <ul>
             <li><Link href='/index'><a>Home</a></Link></li>
-            <li><Link href='/about'><a>About</a></Link></li>
-            <li><Link href='/projects'><a>Projects</a></Link></li>
-            <li><Link href='/articles'><a>Articles</a></Link></li>
+            <li><a href='#c-about__story'>About</a></li>
+            <li><a href='#c-project__my-ruby-project-summary'>Projects</a></li>
+            <li><Link href='/articles#post-cards'><a>Articles</a></Link></li>
           </ul>
         </div> 
       </nav>

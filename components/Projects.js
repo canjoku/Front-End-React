@@ -4,16 +4,16 @@ class Projects extends Component {
   render () {
     return (
       <>
-        <section className='c-project__my-ruby-project u-between-sec'>
+        <section className='c-project__my-ruby-project u-between-sec' id='c-project__my-ruby-project-summary'>
           <h1 className='u-custom-font'>Ruby on Rails</h1>
           <h2 className='u-custom-font-secondary u-between-sec-color'>Project</h2>
         </section>
 
-        <section className='c-project__my-ruby-project-summary' id='c-project__my-ruby-project-summary'>
+        <section className='c-project__my-ruby-project-summary'>
           <div className='c-project__container'>
             <h1 className='u-custom-font'>Ruby</h1>
             <p>A full stack RESTful CRUD application using the MVC pattern.
-              <a href='#' className='u-btn u-btn-info'>Learn More</a>
+              <a href='https://github.com/affinity-digital-ltd/Tonys-blog' target='blank' className='u-btn u-btn-info'>Learn More</a>
             </p>
           </div>
         </section>
@@ -28,7 +28,7 @@ class Projects extends Component {
             <h1 className='u-custom-font'>ReactJS</h1>
             <p>
               A server-side rendered ReactJS application.
-              <a href='#' className='u-btn u-btn-info'>Learn More</a>
+              <a href='https://github.com/affinity-digital-ltd/TBlog-FrontEnd' target='blank' className='u-btn u-btn-info'>Learn More</a>
             </p>
           </div>
         </section>

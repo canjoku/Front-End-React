@@ -56,9 +56,6 @@ app.prepare()
     renderAndCache(req, res, '/showPost', { slug: req.params.slug })
   })
 
-  server.get('/projects', (req, res) => {
-    renderAndCache(req, res, '/projects')
-  })
 
   server.get('*', (req, res) => {
     return handle(req, res)

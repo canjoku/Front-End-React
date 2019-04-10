@@ -29,9 +29,9 @@ class Header extends Component {
         <Navbar menuOpen={menuOpen} overlay={overlay} />
         <div className='c-header__main-text'>
           <h1>Chidi Njoku</h1>
-          <h2>Web Developer</h2>
+          <h2>Full stack</h2>
           <div>{this.state.here}</div>
-          <a href='#' className='u-btn u-main-btn'>Explore</a>
+          <a className='u-btn u-main-btn'>Developer</a>
         </div>
       </header>
     )

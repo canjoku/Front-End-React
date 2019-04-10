@@ -11,7 +11,7 @@ class Articles extends Component {
       <>
         { posts.map((post, index) => {
           return(
-            <section key={index} >
+            <section key={index} id='post-cards'>
               <PostCard post={post}/>
             </section>
           )

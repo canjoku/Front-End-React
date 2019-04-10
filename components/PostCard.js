@@ -12,7 +12,7 @@ class PostCard extends Component {
         <div className='c-post-card__container'>
           <h1 className='u-custom-font'>Ruby</h1>
           <p>{post.title}
-            <Link href={`/showPost?slug=${post.slug}`} as={`/posts/${post.slug}`}><a className='u-btn u-btn-info'>Learn More</a></Link>
+            <Link href={`/showPost?slug=${post.slug}`} as={`/posts/${post.slug}+${'#'+post.title}`}><a className='u-btn u-btn-info'>Learn More</a></Link>
           </p>
         </div>
       </section>

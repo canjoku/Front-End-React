@@ -1,14 +1,16 @@
 import { Component } from 'react'
+import Link from 'next/link'
+
 
 class Footer extends Component {
   render () {
     return (
       <footer>
         <div className='c-footer__texts'>
-          <h4>Links</h4>
+          <h4>My Work</h4>
           <div className='c-footer__text'>
-            <h5>A Link <br></br>
-            Copyright &copy; 2019
+            <h5><a href='#c-project__my-ruby-project-summary'>Projects</a> <br></br>
+            <Link href='/articles#post-cards'><a>Articles</a></Link>
             </h5>
           </div>
         </div>
@@ -16,8 +18,8 @@ class Footer extends Component {
         <div className='c-footer__number'>
           <h4>07378889112</h4>
           <div className='c-footer__email'>
-            <h5>Email <br></br>
-              ca.njoku@yahoo.com
+            <h5>ca.njoku@yahoo.com<br></br>
+            Copyright &copy; 2019
             </h5>
           </div>
         </div>

@@ -14,7 +14,7 @@ class About extends Component {
                 beyond the routine and likes to do a little bit of everything. I am committed to collaborative
                 problem solving, building quality products and sophisticated design.
               </p>
-              <a href='#' className='u-btn u-btn-info'>Learn More</a>
+              <a href='#c-about__my-backend-skills' className='u-btn u-btn-info'>Learn More</a>
             </div>
             <div className='c-about__pic u-add-flex'></div>
           </div>
@@ -38,7 +38,7 @@ class About extends Component {
                   <li>Using background workers and service classes</li>
                 </ul>
               </p>
-              <a href='#' className='u-btn u-btn-info'>Advanced Skills</a>
+              <a href='#c-about__my-front-end-skills' className='u-btn u-btn-info'>See front end skills</a>
             </div>
             <div className='c-image-group u-add-flex u-add-padding-right u-first'>
               <img src='../static/images/web.jpg'></img>
@@ -67,7 +67,7 @@ class About extends Component {
                 <li>Experience with (TDD), specifically Jest/Enzyme</li>
               </ul>
             </p>
-            <a href='#' className='u-btn u-btn-info'>Learn More</a>
+            <a href='#c-about__my-backend-skills' className='u-btn u-btn-info'>See backend skills</a>
           </div>
           <div className='c-about__pic2 u-add-flex'></div>
         </div>
