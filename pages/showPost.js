@@ -48,7 +48,7 @@ class ShowPostPage extends Component {
       if (loading) return <Layout><Skeleton count={5} /></Layout>
       if (error) return <Layout><p>Error :({console.log(error)}</p></Layout>
       return(<Layout>
-        <div>
+        <div className='p-show-post'>
           <PostSection post={post}/>
           <Mutation mutation={this.createComment}
             update={(cache, { data: { newComment } }) => {

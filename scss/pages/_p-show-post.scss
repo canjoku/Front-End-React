@@ -1,0 +1,16 @@
+.p-show-post {
+  padding: 0 5rem 0 5rem;
+  text-align: justify;
+
+  @include mediaMd {
+    padding: 0 10rem 0 10rem;
+  }
+
+  @include mediaLg {
+    padding: 0 15rem 0 15rem;
+  }
+
+  @include mediaXl {
+    padding: 0 30rem 0 30rem;
+  }
+}
