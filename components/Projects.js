@@ -13,7 +13,7 @@ class Projects extends Component {
           <div className='c-project__container'>
             <h1 className='u-custom-font'>Ruby</h1>
             <p>A full stack RESTful CRUD application using the MVC pattern.
-              <a href='https://github.com/affinity-digital-ltd/Tonys-blog' target='blank' className='u-btn u-btn-info'>Learn More</a>
+              <a href='https://github.com/canjoku/Front-End-React' target='blank' className='u-btn u-btn-info'>Learn More</a>
             </p>
           </div>
         </section>
@@ -28,7 +28,7 @@ class Projects extends Component {
             <h1 className='u-custom-font'>ReactJS</h1>
             <p>
               A server-side rendered ReactJS application.
-              <a href='https://github.com/affinity-digital-ltd/TBlog-FrontEnd' target='blank' className='u-btn u-btn-info'>Learn More</a>
+              <a href='https://github.com/canjoku/Rails-Back-End' target='blank' className='u-btn u-btn-info'>Learn More</a>
             </p>
           </div>
         </section>
